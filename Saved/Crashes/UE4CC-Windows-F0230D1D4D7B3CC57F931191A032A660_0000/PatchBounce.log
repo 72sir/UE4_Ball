@@ -1,0 +1,1027 @@
+﻿Log file open, 08/04/17 19:48:18
+LogInit:Display: Running engine for game: PatchBounce
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(930867309) SRandInit(930867309).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.054871
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.04-16.48.18:999][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.04-16.48.18:999][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.04-16.48.19:106][  0]LogInit: Computer: PC-LITE
+[2017.08.04-16.48.19:106][  0]LogInit: User: User
+[2017.08.04-16.48.19:106][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.04-16.48.19:106][  0]LogInit: High frequency timer resolution =3.609376 MHz
+[2017.08.04-16.48.19:106][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.04-16.48.19:106][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.04-16.48.19:106][  0]LogMemory: Process Physical Memory: 273.08 MB used, 273.08 MB peak
+[2017.08.04-16.48.19:106][  0]LogMemory: Process Virtual Memory: 266.16 MB used, 266.16 MB peak
+[2017.08.04-16.48.19:106][  0]LogMemory: Physical Memory: 3257.16 MB used,  4878.93 MB free, 8136.09 MB total
+[2017.08.04-16.48.19:106][  0]LogMemory: Virtual Memory: 642.04 MB used,  4878.93 MB free, 134217728.00 MB total
+[2017.08.04-16.48.19:151][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.04-16.48.19:151][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.08.04-16.48.19:153][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.04-16.48.19:153][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.08.04-16.48.19:874][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.04-16.48.20:473][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.08.04-16.48.20:473][  0]LogD3D11RHI:       4014/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.04-16.48.20:474][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.04-16.48.20:474][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.04-16.48.20:474][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.04-16.48.20:477][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.04-16.48.20:477][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.04-16.48.20:477][  0]LogWindows: EnumDisplayDevices:
+[2017.08.04-16.48.20:477][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2017.08.04-16.48.20:478][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2017.08.04-16.48.20:478][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.08.04-16.48.20:478][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.08.04-16.48.20:478][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.04-16.48.20:478][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.08.04-16.48.20:478][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.08.04-16.48.20:478][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.08.04-16.48.20:478][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.04-16.48.20:979][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.04-16.48.21:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.04-16.48.21:095][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../projects/PatchBounce/Intermediate/Shaders/WorkingDirectory/5620/).
+[2017.08.04-16.48.21:095][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/TEMP/TEMP/UnrealShaderWorkingDir/1D0EA69E4CB8AB925642F5AC8BED854F/'.
+[2017.08.04-16.48.21:095][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.04-16.48.22:650][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.04-16.48.22:679][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.04-16.48.22:708][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.04-16.48.22:737][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.04-16.48.22:766][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.04-16.48.22:795][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.04-16.48.22:824][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.04-16.48.22:852][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.04-16.48.22:876][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.04-16.48.22:907][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.04-16.48.22:935][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.04-16.48.22:963][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.04-16.48.22:991][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.04-16.48.23:022][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.04-16.48.23:052][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.04-16.48.23:109][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.04-16.48.23:109][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.04-16.48.23:130][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.04-16.48.23:195][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.04-16.48.23:213][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.04-16.48.23:241][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.04-16.48.23:270][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.04-16.48.23:313][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.04-16.48.23:349][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.04-16.48.23:349][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.04-16.48.24:101][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.04-16.48.24:195][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.04-16.48.24:195][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.04-16.48.24:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../projects/PatchBounce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.04-16.48.24:195][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.04-16.48.24:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../projects/PatchBounce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.04-16.48.24:195][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.04-16.48.24:209][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.04-16.48.24:220][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.04-16.48.24:229][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.04-16.48.24:229][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.04-16.48.24:229][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.04-16.48.24:229][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.04-16.48.24:520][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.04-16.48.24:611][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.04-16.48.24:733][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.04-16.48.24:757][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.04-16.48.24:782][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.04-16.48.24:782][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.04-16.48.24:782][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.04-16.48.25:233][  0]LogNetVersion: PatchBounce , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1608629453)
+[2017.08.04-16.48.25:286][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.08.04-16.48.25:557][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.168142 seconds
+[2017.08.04-16.48.25:563][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.04-16.48.25:563][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.04-16.48.25:563][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.04-16.48.25:601][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.04-16.48.27:325][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.04-16.48.27:352][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.04-16.48.27:716][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.04-16.48.27:968][  0]SourceControl: Info Source control is disabled
+[2017.08.04-16.48.27:968][  0]SourceControl: Info Source control is disabled
+[2017.08.04-16.48.27:994][  0]SourceControl: Info Source control is disabled
+[2017.08.04-16.48.28:019][  0]SourceControl: Info Source control is disabled
+[2017.08.04-16.48.28:163][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.04-16.48.28:163][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.04-16.48.28:163][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.08.04-16.48.28:395][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.04-16.48.28:721][  0]LogEngine: Initializing Engine...
+[2017.08.04-16.48.28:722][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.04-16.48.28:918][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.04-16.48.28:918][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.04-16.48.28:999][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.04-16.48.29:010][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-16.48.29:018][  0]LogInit: FAudioDevice initialized.
+[2017.08.04-16.48.29:061][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.04-16.48.29:075][  0]LogInit: Texture streaming: Enabled
+[2017.08.04-16.48.29:128][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.04-16.48.29:245][  0]LogInit: Transaction tracking system initialized
+[2017.08.04-16.48.29:407][  0]BlueprintLog: New page: Editor Load
+[2017.08.04-16.48.29:898][  0]LocalizationService: Info Localization service is disabled
+[2017.08.04-16.48.30:270][  0]LogConsoleResponse:Display: 
+[2017.08.04-16.48.30:521][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.04-16.48.30:521][  0]LogCook:Display: Mobile HDR setting 0
+[2017.08.04-16.48.30:826][  0]LogFileCache: Scanning file cache for directory 'D:/projects/PatchBounce/Content/' took 0.03s
+[2017.08.04-16.48.31:062][  0]SourceControl: Info Source control is disabled
+[2017.08.04-16.48.31:062][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.04-16.48.31:063][  0]LightingResults: New page: Lighting Build
+[2017.08.04-16.48.31:084][  0]MapCheck: New page: Map Check
+[2017.08.04-16.48.31:084][  0]LightingResults: New page: Lighting Build
+[2017.08.04-16.48.31:246][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.04-16.48.31:247][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.04-16.48.31:251][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.04-16.48.31:272][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.04-16.48.31:295][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.434ms to complete.
+[2017.08.04-16.48.31:295][  0]LogFileHelpers: Loading map 'Template_Default' took 0.233
+[2017.08.04-16.48.32:201][  0]LogCollectionManager: Loaded 0 collections in 0.001517 seconds
+[2017.08.04-16.48.32:533][  0]LogFileCache: Scanning file cache for directory 'D:/projects/PatchBounce/Saved/Collections/' took 0.01s
+[2017.08.04-16.48.32:533][  0]LogFileCache: Scanning file cache for directory 'D:/projects/PatchBounce/Content/Developers/User/Collections/' took 0.01s
+[2017.08.04-16.48.32:533][  0]LogFileCache: Scanning file cache for directory 'D:/projects/PatchBounce/Content/Collections/' took 0.01s
+[2017.08.04-16.48.32:533][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.04-16.48.32:595][  0]LogContentBrowser: Native class hierarchy populated in 0.0442 seconds. Added 2334 classes and 495 folders.
+[2017.08.04-16.48.32:814][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.08.04-16.48.33:698][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.08.04-16.48.33:896][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.04-16.48.34:505][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.04-16.48.34:589][  0]LogSlate: Took 0.000627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.04-16.48.34:641][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.04-16.48.34:662][  0]LogSlate: Took 0.012286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.04-16.48.35:004][  0]LogRenderer: Reallocating scene render targets to support 1348x936 NumSamples 1 (Frame:1).
+[2017.08.04-16.48.35:715][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.04-16.48.35:760][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.04-16.48.35:760][  0]LogLoad: (Engine Initialization) Total time: 22.14 seconds
+[2017.08.04-16.48.35:760][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.08.04-16.48.35:760][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.04-16.48.36:100][  0]LogOcInput: OculusInput pre-init called
+[2017.08.04-16.48.36:100][  0]LogHMD: Starting GearVRController plugin
+[2017.08.04-16.48.36:210][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.08.04-16.48.36:312][  0]LogSlate: Took 0.012183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.04-16.48.36:463][  1]LogAssetRegistry: Asset discovery search completed in 11.1984 seconds
+[2017.08.04-16.48.36:465][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.04-16.48.36:465][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2017.08.04-16.49.00:212][472]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.04-16.49.00:492][472]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-16.49.00:601][472]Cmd: MAP LOAD FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.04-16.49.00:601][472]LightingResults: New page: Lighting Build
+[2017.08.04-16.49.00:602][472]LoadErrors: New page: Loading map: Level_test2.umap
+[2017.08.04-16.49.00:602][472]MapCheck: New page: Map Check
+[2017.08.04-16.49.00:602][472]LightingResults: New page: Lighting Build
+[2017.08.04-16.49.00:696][472]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.04-16.49.00:724][472]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.04-16.49.00:748][472]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.097ms to complete.
+[2017.08.04-16.49.00:748][472]LogFileHelpers: Loading map 'Level_test2' took 0.147
+[2017.08.04-16.50.33:470][482]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-16.50.33:600][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-16.50.33:650][482]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 10:50:33 PM)
+[2017.08.04-16.50.33:650][482]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-16.50.33:685][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034915s)
+[2017.08.04-16.50.33:686][482]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-16.50.33:686][482]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.08.04-16.50.33:686][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.035661s)
+[2017.08.04-16.50.33:708][482]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-16.50.33:713][482]LogInit: FAudioDevice initialized.
+[2017.08.04-16.50.34:076][482]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-16.50.34:095][482]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-19.50.34
+[2017.08.04-16.50.34:095][482]LogWorld: Bringing up level for play took: 0.001132
+[2017.08.04-16.50.34:224][482]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.08.04-16.50.34:224][482]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.50.34:224][482]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.50.34:224][482]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.50.34:319][482]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.50.34:319][482]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.251
+[2017.08.04-16.51.11:605][688]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-16.51.11:614][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-16.51.11:614][688]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 10:51:11 PM)
+[2017.08.04-16.51.11:614][688]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-16.51.11:618][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003910s)
+[2017.08.04-16.51.11:618][688]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-16.51.11:618][688]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2017.08.04-16.51.11:619][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004670s)
+[2017.08.04-16.51.11:644][688]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-16.51.11:648][688]LogInit: FAudioDevice initialized.
+[2017.08.04-16.51.11:680][688]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-16.51.11:681][688]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-19.51.11
+[2017.08.04-16.51.11:681][688]LogWorld: Bringing up level for play took: 0.001072
+[2017.08.04-16.51.11:682][688]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.51.11:682][688]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.51.11:682][688]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.51.11:683][688]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.51.11:683][688]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.386
+[2017.08.04-16.51.15:472][103]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.08.04-16.51.23:767][ 69]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-16.51.23:776][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-16.51.23:776][ 69]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 10:51:23 PM)
+[2017.08.04-16.51.23:776][ 69]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-16.51.23:780][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003803s)
+[2017.08.04-16.51.23:780][ 69]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-16.51.23:780][ 69]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2017.08.04-16.51.23:780][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004586s)
+[2017.08.04-16.51.23:802][ 69]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-16.51.23:808][ 69]LogInit: FAudioDevice initialized.
+[2017.08.04-16.51.23:837][ 69]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-16.51.23:838][ 69]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-19.51.23
+[2017.08.04-16.51.23:839][ 69]LogWorld: Bringing up level for play took: 0.001651
+[2017.08.04-16.51.23:839][ 69]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.51.23:839][ 69]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.51.23:839][ 69]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.51.23:841][ 69]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.51.23:841][ 69]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.228
+[2017.08.04-16.51.30:811][839]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-16.51.35:036][339]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-16.51.35:044][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-16.51.35:044][339]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 10:51:35 PM)
+[2017.08.04-16.51.35:044][339]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-16.51.35:048][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003833s)
+[2017.08.04-16.51.35:049][339]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-16.51.35:049][339]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.08.04-16.51.35:049][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004570s)
+[2017.08.04-16.51.35:072][339]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-16.51.35:077][339]LogInit: FAudioDevice initialized.
+[2017.08.04-16.51.35:109][339]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-16.51.35:110][339]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-19.51.35
+[2017.08.04-16.51.35:110][339]LogWorld: Bringing up level for play took: 0.001149
+[2017.08.04-16.51.35:111][339]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.51.35:111][339]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.51.35:111][339]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.51.35:112][339]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.51.35:112][339]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 1.043
+[2017.08.04-16.51.46:073][607]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-16.51.46:901][693]LogSlate: Took 0.018400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.04-16.51.51:135][199]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-16.51.51:197][204]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2017.08.04-16.51.53:852][432]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.04-16.51.54:243][432]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.08.04-16.51.56:250][432]LogSlate: Took 0.040871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.04-16.51.58:403][628]LogRenderer: Reallocating scene render targets to support 1588x936 NumSamples 1 (Frame:1).
+[2017.08.04-16.52.35:151][880]Cmd: DELETE
+[2017.08.04-16.52.35:151][880]Cmd: ACTOR DELETE
+[2017.08.04-16.52.35:206][880]LogEditorActor: Deleted Actor: Brush
+[2017.08.04-16.52.35:290][880]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2017.08.04-16.52.36:721][ 50]Cmd: TRANSACTION UNDO
+[2017.08.04-16.52.36:721][ 50]LogEditorTransaction: Undo Delete Actors
+[2017.08.04-16.52.36:727][ 50]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level_test2.Level_test2:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2017.08.04-16.52.36:727][ 50]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level_test2.Level_test2:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2017.08.04-16.52.36:782][ 50]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.04-16.52.36:963][ 71]Cmd: TRANSACTION UNDO
+[2017.08.04-16.52.36:964][ 71]LogEditorTransaction: Undo Select Brush Surface
+[2017.08.04-16.52.37:908][173]Cmd: TRANSACTION UNDO
+[2017.08.04-16.52.37:908][173]LogEditorTransaction: Undo Move Actors
+[2017.08.04-16.52.39:020][305]Cmd: TRANSACTION UNDO
+[2017.08.04-16.52.39:020][305]LogEditorTransaction: Undo Create Actors
+[2017.08.04-16.52.43:608][843]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-16.52.55:721][290]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.08.04-16.52.58:943][667]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.08.04-16.53.01:101][922]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-16.53.01:115][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-16.53.01:115][922]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 10:53:01 PM)
+[2017.08.04-16.53.01:115][922]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-16.53.01:120][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004233s)
+[2017.08.04-16.53.01:120][922]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-16.53.01:120][922]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2017.08.04-16.53.01:120][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.005024s)
+[2017.08.04-16.53.01:154][922]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-16.53.01:159][922]LogInit: FAudioDevice initialized.
+[2017.08.04-16.53.01:187][922]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-16.53.01:188][922]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-19.53.01
+[2017.08.04-16.53.01:188][922]LogWorld: Bringing up level for play took: 0.001087
+[2017.08.04-16.53.01:189][922]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.53.01:189][922]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.53.01:189][922]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.53.01:190][922]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.53.01:190][922]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.879
+[2017.08.04-16.53.38:725][295]Cmd: EDIT COPY
+[2017.08.04-16.53.38:984][320]Cmd: EDIT PASTE
+[2017.08.04-16.53.45:919][129]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2017.08.04-16.53.55:007][210]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-16.54.01:466][978]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2017.08.04-16.54.02:008][ 38]LogEditorViewport: Clicking on Actor (context menu): TargetPoint (TargetPoint2)
+[2017.08.04-16.54.06:544][565]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-16.54.12:033][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-16.54.12:272][205]LogSavePackage: Save=67.28ms
+[2017.08.04-16.54.12:272][205]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test2A0CA894F4FBFB15107E3FC84C0A42A93.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-16.54.12:272][205]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-16.54.13:219][317]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-16.54.13:231][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-16.54.13:231][317]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 10:54:13 PM)
+[2017.08.04-16.54.13:231][317]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-16.54.13:235][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004394s)
+[2017.08.04-16.54.13:236][317]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-16.54.13:236][317]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2017.08.04-16.54.13:236][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.005333s)
+[2017.08.04-16.54.13:270][317]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-16.54.13:275][317]LogInit: FAudioDevice initialized.
+[2017.08.04-16.54.13:303][317]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-16.54.13:304][317]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-19.54.13
+[2017.08.04-16.54.13:304][317]LogWorld: Bringing up level for play took: 0.001274
+[2017.08.04-16.54.13:305][317]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.54.13:305][317]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-16.54.13:305][317]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.54.13:306][317]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-16.54.13:306][317]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.763
+[2017.08.04-16.56.02:914][765]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-16.56.02:914][765]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-16.56.17:940][568]BlueprintLog: New page: Compile LevelLogic
+[2017.08.04-16.56.20:586][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-16.56.20:666][857]LogSavePackage: Save=50.29ms
+[2017.08.04-16.56.20:666][857]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test2F72A1D904E03C2C963F514B628F02DE9.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-16.56.20:666][857]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-17.03.18:229][ 44]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-17.03.18:229][ 44]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-17.04.14:096][674]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-17.04.14:096][674]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-17.04.40:501][803]BlueprintLog: New page: Compile ball
+[2017.08.04-17.04.42:394][ 13]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-17.04.42:405][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-17.04.42:405][ 13]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 11:04:42 PM)
+[2017.08.04-17.04.42:405][ 13]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-17.04.42:409][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004044s)
+[2017.08.04-17.04.42:410][ 13]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-17.04.42:410][ 13]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.08.04-17.04.42:410][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004809s)
+[2017.08.04-17.04.42:444][ 13]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-17.04.42:449][ 13]LogInit: FAudioDevice initialized.
+[2017.08.04-17.04.42:676][ 13]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-17.04.42:682][ 13]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-20.04.42
+[2017.08.04-17.04.42:682][ 13]LogWorld: Bringing up level for play took: 0.004431
+[2017.08.04-17.04.42:683][ 13]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-17.04.42:684][ 13]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-17.04.42:684][ 13]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-17.04.42:684][ 13]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-17.04.42:688][ 13]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-17.04.42:690][ 13]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.621
+[2017.08.04-17.05.10:643][350]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-17.05.10:654][350]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.04-17.05.10:654][350]LogPlayLevel: [PlayLevel] Compiling ball before play...
+[2017.08.04-17.05.10:762][350]LogPlayLevel: PlayLevel: Blueprint regeneration took 107 ms (1 blueprints)
+[2017.08.04-17.05.10:762][350]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 11:05:10 PM)
+[2017.08.04-17.05.10:762][350]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-17.05.10:767][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004129s)
+[2017.08.04-17.05.10:767][350]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-17.05.10:767][350]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2017.08.04-17.05.10:767][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004905s)
+[2017.08.04-17.05.10:801][350]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-17.05.10:806][350]LogInit: FAudioDevice initialized.
+[2017.08.04-17.05.10:849][350]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-17.05.10:851][350]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-20.05.10
+[2017.08.04-17.05.10:851][350]LogWorld: Bringing up level for play took: 0.001203
+[2017.08.04-17.05.10:851][350]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-17.05.10:851][350]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-17.05.10:851][350]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-17.05.10:851][350]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-17.05.10:852][350]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-17.05.10:854][350]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.785
+[2017.08.04-17.06.03:525][639]BlueprintLog: New page: Compile ball
+[2017.08.04-17.06.04:224][699]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-17.06.04:235][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-17.06.04:235][699]PIE: New page: PIE session: Level_test2 (Aug 4, 2017, 11:06:04 PM)
+[2017.08.04-17.06.04:236][699]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-17.06.04:239][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003924s)
+[2017.08.04-17.06.04:240][699]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-17.06.04:240][699]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.08.04-17.06.04:240][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004680s)
+[2017.08.04-17.06.04:274][699]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-17.06.04:279][699]LogInit: FAudioDevice initialized.
+[2017.08.04-17.06.04:326][699]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-17.06.04:327][699]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-20.06.04
+[2017.08.04-17.06.04:327][699]LogWorld: Bringing up level for play took: 0.001122
+[2017.08.04-17.06.04:328][699]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-17.06.04:328][699]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-17.06.04:328][699]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-17.06.04:328][699]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-17.06.04:329][699]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-17.06.04:330][699]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.262
+[2017.08.04-17.06.05:418][821]LogBlueprintUserMessages: [ball_143] X=-415.114 Y=767.054 Z=91.000
+[2017.08.04-17.06.07:223][ 38]LogBlueprintUserMessages: [ball_143] X=1310.194 Y=-2624.982 Z=90.116
+[2017.08.04-17.06.09:290][286]LogBlueprintUserMessages: [ball_143] X=-862.080 Y=-1580.523 Z=86.570
+[2017.08.04-17.06.10:107][384]LogBlueprintUserMessages: [ball_143] X=379.182 Y=-2504.680 Z=90.392
+[2017.08.04-17.06.10:715][457]LogBlueprintUserMessages: [ball_143] X=2352.741 Y=-2002.907 Z=89.620
+[2017.08.04-17.06.11:165][511]LogBlueprintUserMessages: [ball_143] X=102.929 Y=-1063.518 Z=90.113
+[2017.08.04-17.06.11:549][557]LogBlueprintUserMessages: [ball_143] X=-847.744 Y=-1647.688 Z=91.168
+[2017.08.04-17.06.12:032][615]LogBlueprintUserMessages: [ball_143] X=-905.640 Y=-346.327 Z=91.440
+[2017.08.04-17.06.12:441][664]LogBlueprintUserMessages: [ball_143] X=-957.315 Y=603.716 Z=92.335
+[2017.08.04-17.06.12:857][714]LogBlueprintUserMessages: [ball_143] X=-994.588 Y=1246.221 Z=93.192
+[2017.08.04-17.06.13:274][764]LogBlueprintUserMessages: [ball_143] X=-1006.379 Y=1302.767 Z=94.078
+[2017.08.04-17.06.13:682][813]LogBlueprintUserMessages: [ball_143] X=-1004.734 Y=1385.864 Z=95.063
+[2017.08.04-17.06.14:107][864]LogBlueprintUserMessages: [ball_143] X=-1056.920 Y=1934.382 Z=92.799
+[2017.08.04-17.06.14:432][903]LogBlueprintUserMessages: [ball_143] X=-1056.417 Y=2020.052 Z=94.423
+[2017.08.04-17.06.14:899][959]LogBlueprintUserMessages: [ball_143] X=-855.266 Y=1588.521 Z=92.940
+[2017.08.04-17.06.15:249][  1]LogBlueprintUserMessages: [ball_143] X=-800.120 Y=-1195.766 Z=94.364
+[2017.08.04-17.06.15:649][ 49]LogBlueprintUserMessages: [ball_143] X=1429.536 Y=-2563.891 Z=95.427
+[2017.08.04-17.06.15:949][ 85]LogBlueprintUserMessages: [ball_143] X=2348.275 Y=739.994 Z=97.348
+[2017.08.04-17.06.16:266][123]LogBlueprintUserMessages: [ball_143] X=699.437 Y=1892.839 Z=96.068
+[2017.08.04-17.06.16:949][205]LogBlueprintUserMessages: [ball_143] X=-44.784 Y=1459.192 Z=94.860
+[2017.08.04-17.06.17:474][268]LogBlueprintUserMessages: [ball_143] X=-312.558 Y=-2013.411 Z=92.184
+[2017.08.04-17.07.18:058][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Levels/Level_test2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.04-17.07.18:129][504]LogSavePackage: Save=65.80ms
+[2017.08.04-17.07.18:129][504]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test2_Auto1EC58D66B4E7BE2BBC36BB3B98C6CF2BC.tmp' to '../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Levels/Level_test2_Auto1.umap'
+[2017.08.04-17.07.18:129][504]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Levels/Level_test2_Auto1.umap
+[2017.08.04-17.07.18:130][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_test2' took 0.241
+[2017.08.04-17.07.18:130][504]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.241
+[2017.08.04-17.07.18:151][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LevelLogic] ([1] browsable assets)...
+[2017.08.04-17.07.18:151][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LevelLogic]
+[2017.08.04-17.07.18:151][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/LevelLogic" FILE="../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.04-17.07.18:268][504]LogSavePackage: Save=114.27ms
+[2017.08.04-17.07.18:268][504]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/LevelLogic_Auto19E29AF3E41B7F5D82457CF91129819B1.tmp' to '../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto1.uasset'
+[2017.08.04-17.07.18:290][504]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto1.uasset
+[2017.08.04-17.07.18:291][504]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ball] ([1] browsable assets)...
+[2017.08.04-17.07.18:318][504]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Models/ball.ball]
+[2017.08.04-17.07.18:318][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ball]
+[2017.08.04-17.07.18:318][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.04-17.07.18:385][504]LogSavePackage: Save=64.65ms
+[2017.08.04-17.07.18:385][504]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/ball_Auto1E1EF896A424B4C3D9AC01B9308A22F59.tmp' to '../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto1.uasset'
+[2017.08.04-17.07.18:386][504]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto1.uasset
+[2017.08.04-17.07.18:386][504]LogFileHelpers: Auto-saving content packages took 0.254
+[2017.08.04-17.17.18:307][754]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_test2' took 0.039
+[2017.08.04-17.17.18:309][754]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ball] ([1] browsable assets)...
+[2017.08.04-17.17.18:352][754]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Models/ball.ball]
+[2017.08.04-17.17.18:352][754]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ball]
+[2017.08.04-17.17.18:352][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.04-17.17.18:435][754]LogSavePackage: Save=79.76ms
+[2017.08.04-17.17.18:435][754]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/ball_Auto2DBDFAD7A4A1C70F1292F63A23B26410D.tmp' to '../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto2.uasset'
+[2017.08.04-17.17.18:435][754]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto2.uasset
+[2017.08.04-17.17.18:435][754]LogFileHelpers: Auto-saving content packages took 0.127
+[2017.08.04-18.11.20:953][781]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.04-18.11.30:623][810]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-18.11.30:623][810]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-18.11.59:114][733]BlueprintLog: New page: Compile ball
+[2017.08.04-18.13.39:534][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Levels/Level_test2_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.04-18.13.39:611][952]LogSavePackage: Save=70.69ms
+[2017.08.04-18.13.39:611][952]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test2_Auto3BCC0C6814F7B6C2FF37947B44E67DACA.tmp' to '../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Levels/Level_test2_Auto3.umap'
+[2017.08.04-18.13.39:611][952]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Levels/Level_test2_Auto3.umap
+[2017.08.04-18.13.39:614][952]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_test2' took 0.155
+[2017.08.04-18.13.39:614][952]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
+[2017.08.04-18.13.39:615][952]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LevelLogic] ([1] browsable assets)...
+[2017.08.04-18.13.39:615][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LevelLogic]
+[2017.08.04-18.13.39:615][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/LevelLogic" FILE="../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.04-18.13.39:704][952]LogSavePackage: Save=85.28ms
+[2017.08.04-18.13.39:704][952]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/LevelLogic_Auto39BB523674935EEDF016DAC8F1433A2B3.tmp' to '../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto3.uasset'
+[2017.08.04-18.13.39:704][952]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto3.uasset
+[2017.08.04-18.13.39:704][952]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ball] ([1] browsable assets)...
+[2017.08.04-18.13.39:715][952]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Models/ball.ball]
+[2017.08.04-18.13.39:715][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ball]
+[2017.08.04-18.13.39:715][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.04-18.13.39:767][952]LogSavePackage: Save=48.92ms
+[2017.08.04-18.13.39:767][952]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/ball_Auto3AFD660B74E31D6D327332DA9B902EE4E.tmp' to '../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto3.uasset'
+[2017.08.04-18.13.39:769][952]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Saved/Autosaves/Game/Models/ball_Auto3.uasset
+[2017.08.04-18.13.39:769][952]LogFileHelpers: Auto-saving content packages took 0.154
+[2017.08.04-18.14.24:409][496]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.08.04-18.16.31:772][966]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-18.16.31:772][966]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.04-18.17.19:254][503]BlueprintLog: New page: Compile ball
+[2017.08.04-18.17.20:563][620]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.17.20:574][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.17.20:574][620]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:17:20 AM)
+[2017.08.04-18.17.20:574][620]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.17.20:579][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004338s)
+[2017.08.04-18.17.20:579][620]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.17.20:579][620]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2017.08.04-18.17.20:580][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.005176s)
+[2017.08.04-18.17.20:613][620]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.17.20:619][620]LogInit: FAudioDevice initialized.
+[2017.08.04-18.17.20:659][620]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.17.20:661][620]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.17.20
+[2017.08.04-18.17.20:661][620]LogWorld: Bringing up level for play took: 0.001203
+[2017.08.04-18.17.20:661][620]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.17.20:661][620]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.17.20:661][620]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.17.20:662][620]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.17.20:663][620]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.17.20:664][620]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.599
+[2017.08.04-18.17.21:397][699]LogBlueprintUserMessages: [ball_143] X=-333.298 Y=892.748 Z=91.000
+[2017.08.04-18.17.22:072][780]LogBlueprintUserMessages: [ball_143] X=2379.360 Y=101.370 Z=90.439
+[2017.08.04-18.17.38:664][743]Cmd: TRANSACTION UNDO
+[2017.08.04-18.17.38:664][743]LogEditorTransaction: Undo Set actor location
+[2017.08.04-18.17.39:271][814]Cmd: TRANSACTION UNDO
+[2017.08.04-18.17.39:271][814]LogEditorTransaction: Undo Set actor location
+[2017.08.04-18.17.39:813][879]Cmd: TRANSACTION UNDO
+[2017.08.04-18.17.39:813][879]LogEditorTransaction: Undo Set actor location
+[2017.08.04-18.17.58:509][ 92]BlueprintLog: New page: Compile ball
+[2017.08.04-18.17.59:131][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="../../../../../../projects/PatchBounce/Content/Models/ball.uasset" SILENT=true
+[2017.08.04-18.17.59:184][149]LogSavePackage: Save=50.94ms
+[2017.08.04-18.17.59:184][149]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/ballA8832C764790EAA4059F43B2924ED85A.tmp' to '../../../../../../projects/PatchBounce/Content/Models/ball.uasset'
+[2017.08.04-18.17.59:185][149]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Models/ball.uasset
+[2017.08.04-18.18.00:226][273]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.18.00:238][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.18.00:238][273]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:18:00 AM)
+[2017.08.04-18.18.00:238][273]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.18.00:242][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004002s)
+[2017.08.04-18.18.00:242][273]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.18.00:242][273]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.08.04-18.18.00:243][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004765s)
+[2017.08.04-18.18.00:276][273]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.18.00:281][273]LogInit: FAudioDevice initialized.
+[2017.08.04-18.18.00:326][273]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.18.00:327][273]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.18.00
+[2017.08.04-18.18.00:327][273]LogWorld: Bringing up level for play took: 0.001154
+[2017.08.04-18.18.00:328][273]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.18.00:328][273]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.18.00:328][273]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.18.00:328][273]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.18.00:329][273]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.18.00:330][273]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.265
+[2017.08.04-18.18.01:184][372]LogBlueprintUserMessages: [ball_143] X=-497.356 Y=760.510 Z=91.000
+[2017.08.04-18.18.02:518][532]LogBlueprintUserMessages: [ball_143] X=-875.370 Y=-2660.891 Z=90.116
+[2017.08.04-18.18.03:284][624]LogBlueprintUserMessages: [ball_143] X=-835.295 Y=-2698.958 Z=83.885
+[2017.08.04-18.18.03:909][699]LogBlueprintUserMessages: [ball_143] X=-742.015 Y=-2740.809 Z=78.841
+[2017.08.04-18.18.04:426][761]LogBlueprintUserMessages: [ball_143] X=1403.780 Y=1295.124 Z=74.695
+[2017.08.04-18.18.05:242][859]LogBlueprintUserMessages: [ball_143] X=2447.242 Y=1932.418 Z=97.604
+[2017.08.04-18.18.05:910][939]LogBlueprintUserMessages: [ball_143] X=1949.263 Y=1777.414 Z=92.134
+[2017.08.04-18.18.06:543][ 15]LogBlueprintUserMessages: [ball_143] X=1312.006 Y=1612.927 Z=86.971
+[2017.08.04-18.18.07:176][ 91]LogBlueprintUserMessages: [ball_143] X=1083.315 Y=331.168 Z=81.840
+[2017.08.04-18.18.07:626][145]LogBlueprintUserMessages: [ball_143] X=-535.381 Y=-2527.211 Z=78.214
+[2017.08.04-18.18.08:285][224]LogBlueprintUserMessages: [ball_143] X=-599.606 Y=-2762.353 Z=90.243
+[2017.08.04-18.19.44:153][660]BlueprintLog: New page: Compile ball
+[2017.08.04-18.19.45:225][774]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.19.45:236][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.19.45:236][774]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:19:45 AM)
+[2017.08.04-18.19.45:236][774]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.19.45:240][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003973s)
+[2017.08.04-18.19.45:241][774]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.19.45:241][774]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.08.04-18.19.45:241][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004793s)
+[2017.08.04-18.19.45:275][774]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.19.45:280][774]LogInit: FAudioDevice initialized.
+[2017.08.04-18.19.45:324][774]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.19.45:325][774]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.19.45
+[2017.08.04-18.19.45:326][774]LogWorld: Bringing up level for play took: 0.001195
+[2017.08.04-18.19.45:326][774]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.19.45:326][774]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.19.45:326][774]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.19.45:326][774]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.19.45:327][774]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.19.45:329][774]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.736
+[2017.08.04-18.19.46:279][881]LogBlueprintUserMessages: [ball_143] X=-445.163 Y=728.876 Z=91.000
+[2017.08.04-18.19.46:978][965]LogBlueprintUserMessages: [ball_143] X=718.983 Y=-2547.102 Z=90.235
+[2017.08.04-18.19.47:653][ 46]LogBlueprintUserMessages: [ball_143] X=2167.234 Y=-2637.292 Z=84.746
+[2017.08.04-18.19.48:212][113]LogBlueprintUserMessages: [ball_143] X=871.674 Y=-2654.618 Z=80.234
+[2017.08.04-18.20.04:887][ 95]BlueprintLog: New page: Compile ball
+[2017.08.04-18.20.05:768][186]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.20.05:780][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.20.05:780][186]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:20:05 AM)
+[2017.08.04-18.20.05:780][186]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.20.05:784][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004032s)
+[2017.08.04-18.20.05:784][186]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.20.05:785][186]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.08.04-18.20.05:785][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004889s)
+[2017.08.04-18.20.05:819][186]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.20.05:824][186]LogInit: FAudioDevice initialized.
+[2017.08.04-18.20.05:864][186]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.20.05:865][186]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.20.05
+[2017.08.04-18.20.05:865][186]LogWorld: Bringing up level for play took: 0.001124
+[2017.08.04-18.20.05:866][186]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.20.05:866][186]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.20.05:866][186]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.20.05:866][186]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.20.05:867][186]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.20.05:869][186]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.196
+[2017.08.04-18.20.06:461][250]LogBlueprintUserMessages: [ball_143] X=-359.075 Y=661.253 Z=91.000
+[2017.08.04-18.20.07:453][369]LogBlueprintUserMessages: [ball_143] X=309.634 Y=-2712.788 Z=90.116
+[2017.08.04-18.20.08:136][451]LogBlueprintUserMessages: [ball_143] X=1348.628 Y=-2698.638 Z=92.249
+[2017.08.04-18.20.08:770][527]LogBlueprintUserMessages: [ball_143] X=1458.236 Y=-2623.933 Z=87.085
+[2017.08.04-18.20.09:453][609]LogBlueprintUserMessages: [ball_143] X=-160.110 Y=-2504.212 Z=93.585
+[2017.08.04-18.20.10:869][779]LogBlueprintUserMessages: [ball_143] X=-911.953 Y=-2490.582 Z=92.660
+[2017.08.04-18.20.12:336][955]LogBlueprintUserMessages: [ball_143] X=-444.087 Y=1374.015 Z=90.388
+[2017.08.04-18.20.13:795][130]LogBlueprintUserMessages: [ball_143] X=2515.000 Y=-940.620 Z=90.360
+[2017.08.04-18.20.14:711][240]LogBlueprintUserMessages: [ball_143] X=-985.664 Y=-2575.154 Z=90.252
+[2017.08.04-18.20.15:645][352]LogBlueprintUserMessages: [ball_143] X=-1096.847 Y=-2476.796 Z=89.980
+[2017.08.04-18.20.16:286][429]LogBlueprintUserMessages: [ball_143] X=-1190.899 Y=-2088.145 Z=89.867
+[2017.08.04-18.20.16:861][498]LogBlueprintUserMessages: [ball_143] X=-991.389 Y=980.204 Z=97.177
+[2017.08.04-18.21.02:381][941]BlueprintLog: New page: Compile ball
+[2017.08.04-18.21.13:378][206]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2017.08.04-18.21.22:083][188]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2017.08.04-18.21.29:126][999]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.08.04-18.21.33:001][451]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-18.22.56:295][ 41]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2017.08.04-18.22.56:995][122]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2017.08.04-18.23.04:769][ 12]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.08.04-18.23.10:278][668]LogEditorViewport: Clicking on Actor (LMB): LevelLogic_C (LevelLogic)
+[2017.08.04-18.23.14:423][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-18.23.14:501][158]LogSavePackage: Save=48.71ms
+[2017.08.04-18.23.14:501][158]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test2F9E8459241750B915CD4F6AA28416F2D.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-18.23.14:502][158]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-18.23.15:972][332]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.23.15:984][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.23.15:984][332]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:23:15 AM)
+[2017.08.04-18.23.15:984][332]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.23.15:988][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004325s)
+[2017.08.04-18.23.15:989][332]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.23.15:989][332]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.08.04-18.23.15:989][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.005138s)
+[2017.08.04-18.23.16:023][332]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.23.16:028][332]LogInit: FAudioDevice initialized.
+[2017.08.04-18.23.16:061][332]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.23.16:063][332]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.23.16
+[2017.08.04-18.23.16:063][332]LogWorld: Bringing up level for play took: 0.001190
+[2017.08.04-18.23.16:063][332]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.23.16:063][332]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.23.16:063][332]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.23.16:064][332]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.23.16:064][332]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.001
+[2017.08.04-18.23.16:970][440]LogBlueprintUserMessages: [ball_143] X=-200.738 Y=694.224 Z=91.000
+[2017.08.04-18.23.19:337][724]LogBlueprintUserMessages: [ball_143] X=-2959.299 Y=-797.885 Z=90.116
+[2017.08.04-18.23.20:871][908]LogBlueprintUserMessages: [ball_143] X=1975.385 Y=-2380.082 Z=90.987
+[2017.08.04-18.23.22:404][ 92]LogBlueprintUserMessages: [ball_143] X=-2097.588 Y=1865.455 Z=89.790
+[2017.08.04-18.26.33:881][829]BlueprintLog: New page: Compile ball
+[2017.08.04-18.26.35:011][950]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.26.35:023][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.26.35:023][950]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:26:35 AM)
+[2017.08.04-18.26.35:023][950]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.26.35:027][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003972s)
+[2017.08.04-18.26.35:027][950]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.26.35:027][950]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.08.04-18.26.35:028][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004697s)
+[2017.08.04-18.26.35:061][950]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.26.35:067][950]LogInit: FAudioDevice initialized.
+[2017.08.04-18.26.35:111][950]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.26.35:113][950]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.26.35
+[2017.08.04-18.26.35:113][950]LogWorld: Bringing up level for play took: 0.001307
+[2017.08.04-18.26.35:113][950]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.26.35:113][950]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.26.35:113][950]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.26.35:113][950]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.26.35:114][950]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.26.35:116][950]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 1.051
+[2017.08.04-18.26.35:856][ 32]LogBlueprintUserMessages: [ball_143] X=-396.739 Y=708.322 Z=91.000
+[2017.08.04-18.26.36:839][150]LogBlueprintUserMessages: [ball_143] X=-458.637 Y=-2690.927 Z=90.048
+[2017.08.04-18.26.38:947][403]LogBlueprintUserMessages: [ball_143] X=2456.423 Y=1303.257 Z=90.184
+[2017.08.04-18.26.42:573][838]LogBlueprintUserMessages: [ball_143] X=-932.103 Y=-2590.884 Z=90.320
+[2017.08.04-18.26.43:772][982]LogBlueprintUserMessages: [ball_143] X=-1729.146 Y=880.895 Z=88.345
+[2017.08.04-18.26.46:406][298]LogBlueprintUserMessages: [ball_143] X=373.011 Y=-2043.720 Z=90.116
+[2017.08.04-18.26.51:314][887]LogBlueprintUserMessages: [ball_143] X=-855.319 Y=325.538 Z=90.116
+[2017.08.04-18.26.52:431][ 21]LogBlueprintUserMessages: [ball_143] X=-1211.612 Y=480.522 Z=90.048
+[2017.08.04-18.26.53:081][ 99]LogBlueprintUserMessages: [ball_143] X=-2654.663 Y=-1748.474 Z=89.867
+[2017.08.04-18.26.55:506][390]LogBlueprintUserMessages: [ball_143] X=653.163 Y=648.139 Z=90.248
+[2017.08.04-18.26.56:648][527]LogBlueprintUserMessages: [ball_143] X=1634.992 Y=-3324.006 Z=90.184
+[2017.08.04-18.26.58:740][778]LogBlueprintUserMessages: [ball_143] X=-840.358 Y=-2859.305 Z=90.252
+[2017.08.04-18.27.00:098][941]LogBlueprintUserMessages: [ball_143] X=-994.977 Y=1502.764 Z=90.184
+[2017.08.04-18.27.01:373][ 94]LogBlueprintUserMessages: [ball_143] X=-473.893 Y=-389.303 Z=90.252
+[2017.08.04-18.27.06:873][754]LogBlueprintUserMessages: [ball_143] X=-2686.418 Y=868.970 Z=89.980
+[2017.08.04-18.27.07:957][884]LogBlueprintUserMessages: [ball_143] X=-3387.993 Y=-1165.061 Z=90.116
+[2017.08.04-18.27.08:865][993]LogBlueprintUserMessages: [ball_143] X=1898.486 Y=-277.180 Z=82.739
+[2017.08.04-18.27.11:465][305]LogBlueprintUserMessages: [ball_143] X=583.811 Y=-2136.706 Z=90.367
+[2017.08.04-18.27.13:315][527]LogBlueprintUserMessages: [ball_143] X=-1817.915 Y=-1447.730 Z=88.303
+[2017.08.04-18.27.16:215][875]LogBlueprintUserMessages: [ball_143] X=-1558.929 Y=1071.100 Z=89.980
+[2017.08.04-18.27.17:007][970]LogBlueprintUserMessages: [ball_143] X=-1092.502 Y=-1083.704 Z=89.907
+[2017.08.04-18.27.17:823][ 68]LogBlueprintUserMessages: [ball_143] X=71.638 Y=-123.417 Z=89.980
+[2017.08.04-18.27.19:457][264]LogBlueprintUserMessages: [ball_143] X=-3050.198 Y=-3105.095 Z=89.980
+[2017.08.04-18.27.21:349][491]LogBlueprintUserMessages: [ball_143] X=-1416.954 Y=-1906.768 Z=90.048
+[2017.08.04-18.27.22:357][612]LogBlueprintUserMessages: [ball_143] X=-2972.935 Y=-3197.215 Z=91.494
+[2017.08.04-18.27.24:183][831]LogBlueprintUserMessages: [ball_143] X=-919.705 Y=-1070.982 Z=89.439
+[2017.08.04-18.27.25:124][944]LogBlueprintUserMessages: [ball_143] X=-2531.154 Y=-2234.814 Z=90.115
+[2017.08.04-18.27.27:266][201]LogBlueprintUserMessages: [ball_143] X=-1899.327 Y=-110.383 Z=90.620
+[2017.08.04-18.27.27:866][273]LogBlueprintUserMessages: [ball_143] X=-851.505 Y=-477.052 Z=90.722
+[2017.08.04-18.27.29:041][414]LogBlueprintUserMessages: [ball_143] X=-633.867 Y=-605.725 Z=90.116
+[2017.08.04-18.27.31:216][675]LogBlueprintUserMessages: [ball_143] X=-646.084 Y=65.809 Z=93.996
+[2017.08.04-18.27.32:599][841]LogBlueprintUserMessages: [ball_143] X=-2456.995 Y=166.624 Z=89.065
+[2017.08.04-18.27.33:949][  3]LogBlueprintUserMessages: [ball_143] X=74.125 Y=-264.516 Z=89.991
+[2017.08.04-18.27.34:783][103]LogBlueprintUserMessages: [ball_143] X=43.209 Y=-533.979 Z=88.186
+[2017.08.04-18.27.35:665][206]LogBlueprintUserMessages: [ball_143] X=193.797 Y=-1715.283 Z=89.980
+[2017.08.04-18.27.36:999][366]LogBlueprintUserMessages: [ball_143] X=115.394 Y=-3448.704 Z=92.161
+[2017.08.04-18.27.37:799][462]LogBlueprintUserMessages: [ball_143] X=-1982.543 Y=-2514.024 Z=87.669
+[2017.08.04-18.27.38:532][550]LogBlueprintUserMessages: [ball_143] X=-2457.010 Y=981.564 Z=90.048
+[2017.08.04-18.28.27:597][422]BlueprintLog: New page: Compile ball
+[2017.08.04-18.28.28:156][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="../../../../../../projects/PatchBounce/Content/Models/ball.uasset" SILENT=true
+[2017.08.04-18.28.28:214][471]LogSavePackage: Save=55.58ms
+[2017.08.04-18.28.28:214][471]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/ball69A736E34891A7661FE7A58731CB019F.tmp' to '../../../../../../projects/PatchBounce/Content/Models/ball.uasset'
+[2017.08.04-18.28.28:215][471]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Models/ball.uasset
+[2017.08.04-18.28.29:257][595]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.28.29:268][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.28.29:268][595]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:28:29 AM)
+[2017.08.04-18.28.29:269][595]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.28.29:273][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004343s)
+[2017.08.04-18.28.29:273][595]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.28.29:274][595]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2017.08.04-18.28.29:274][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.005301s)
+[2017.08.04-18.28.29:308][595]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.28.29:313][595]LogInit: FAudioDevice initialized.
+[2017.08.04-18.28.29:356][595]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.28.29:357][595]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.28.29
+[2017.08.04-18.28.29:358][595]LogWorld: Bringing up level for play took: 0.001133
+[2017.08.04-18.28.29:358][595]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.28.29:358][595]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.28.29:358][595]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.28.29:358][595]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.28.29:359][595]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.28.29:361][595]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.704
+[2017.08.04-18.28.30:183][687]LogBlueprintUserMessages: [ball_143] X=-303.624 Y=690.491 Z=91.000
+[2017.08.04-18.28.44:407][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-18.28.44:486][307]LogSavePackage: Save=50.12ms
+[2017.08.04-18.28.44:486][307]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test27F3204934ACFE8D78B66DCABC8909D15.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-18.28.44:487][307]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-18.29.29:473][564]Cmd: TRANSACTION UNDO
+[2017.08.04-18.29.29:473][564]LogEditorTransaction: Undo Scale Actors
+[2017.08.04-18.29.29:478][564]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level_test2.Level_test2:PersistentLevel.BoxBrush2_4.BrushComponent0) Component already registered.
+[2017.08.04-18.29.29:479][564]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level_test2.Level_test2:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.08.04-18.29.53:556][276]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.04-18.30.02:588][313]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2017.08.04-18.30.09:554][601]Cmd: SELECT NONE
+[2017.08.04-18.30.47:346][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-18.30.47:511][  4]LogSavePackage: Save=133.89ms
+[2017.08.04-18.30.47:511][  4]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test2240A545C412E1177AC306A8928201F32.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-18.30.47:511][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-18.30.48:450][115]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.30.48:462][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.30.48:462][115]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:30:48 AM)
+[2017.08.04-18.30.48:462][115]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.30.48:466][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003851s)
+[2017.08.04-18.30.48:466][115]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.30.48:467][115]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2017.08.04-18.30.48:467][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004691s)
+[2017.08.04-18.30.48:503][115]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.30.48:509][115]LogInit: FAudioDevice initialized.
+[2017.08.04-18.30.48:537][115]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.30.48:538][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.30.48
+[2017.08.04-18.30.48:538][115]LogWorld: Bringing up level for play took: 0.001082
+[2017.08.04-18.30.48:539][115]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.30.48:539][115]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.30.48:539][115]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.30.48:540][115]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.30.48:540][115]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.475
+[2017.08.04-18.30.49:779][263]LogBlueprintUserMessages: [ball_143] X=-555.601 Y=716.128 Z=91.000
+[2017.08.04-18.30.51:338][450]LogBlueprintUserMessages: [ball_143] X=-2383.525 Y=274.039 Z=90.320
+[2017.08.04-18.30.52:879][635]LogBlueprintUserMessages: [ball_143] X=409.217 Y=-348.092 Z=89.645
+[2017.08.04-18.30.54:105][782]LogBlueprintUserMessages: [ball_143] X=-876.538 Y=-164.208 Z=90.184
+[2017.08.04-18.30.55:738][978]LogBlueprintUserMessages: [ball_143] X=-3341.433 Y=-984.284 Z=90.116
+[2017.08.04-18.31.02:259][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-18.31.02:336][745]LogSavePackage: Save=48.31ms
+[2017.08.04-18.31.02:336][745]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test29A4EC519453B70B8B441E68D2ECFC6A7.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-18.31.02:337][745]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-18.31.14:226][164]LogEditorTransaction: Undo Move Node
+[2017.08.04-18.31.14:801][228]LogEditorTransaction: Undo Delete current selection
+[2017.08.04-18.31.24:450][379]BlueprintLog: New page: Compile ball
+[2017.08.04-18.31.25:266][462]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.31.25:278][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.31.25:278][462]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:31:25 AM)
+[2017.08.04-18.31.25:278][462]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.31.25:282][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003791s)
+[2017.08.04-18.31.25:282][462]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.31.25:282][462]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.08.04-18.31.25:283][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004545s)
+[2017.08.04-18.31.25:317][462]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.31.25:322][462]LogInit: FAudioDevice initialized.
+[2017.08.04-18.31.25:369][462]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.31.25:370][462]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.31.25
+[2017.08.04-18.31.25:370][462]LogWorld: Bringing up level for play took: 0.001091
+[2017.08.04-18.31.25:371][462]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.31.25:371][462]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.31.25:371][462]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.31.25:371][462]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.31.25:372][462]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.31.25:374][462]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.691
+[2017.08.04-18.31.26:165][553]LogBlueprintUserMessages: [ball_143] X=-303.624 Y=605.681 Z=91.000
+[2017.08.04-18.31.26:982][651]LogBlueprintUserMessages: [ball_143] X=-1.639 Y=53.269 Z=89.283
+[2017.08.04-18.31.27:765][745]LogBlueprintUserMessages: [ball_143] X=-753.242 Y=840.772 Z=90.184
+[2017.08.04-18.31.28:740][862]LogBlueprintUserMessages: [ball_143] X=-1973.366 Y=-1281.486 Z=92.091
+[2017.08.04-18.31.29:665][973]LogBlueprintUserMessages: [ball_143] X=-1.702 Y=45.443 Z=87.651
+[2017.08.04-18.31.31:546][187]Cmd: TRANSACTION UNDO
+[2017.08.04-18.31.31:546][187]LogEditorTransaction: Undo Create Pin Link
+[2017.08.04-18.31.31:942][230]Cmd: TRANSACTION UNDO
+[2017.08.04-18.31.31:942][230]LogEditorTransaction: Undo Delete current selection
+[2017.08.04-18.31.44:939][784]BlueprintLog: New page: Compile ball
+[2017.08.04-18.31.45:703][861]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.31.45:715][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.31.45:715][861]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:31:45 AM)
+[2017.08.04-18.31.45:715][861]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.31.45:719][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003913s)
+[2017.08.04-18.31.45:719][861]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.31.45:720][861]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2017.08.04-18.31.45:720][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004608s)
+[2017.08.04-18.31.45:754][861]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.31.45:759][861]LogInit: FAudioDevice initialized.
+[2017.08.04-18.31.45:805][861]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.31.45:807][861]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.31.45
+[2017.08.04-18.31.45:807][861]LogWorld: Bringing up level for play took: 0.001689
+[2017.08.04-18.31.45:807][861]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.04-18.31.45:808][861]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.31.45:808][861]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.31.45:808][861]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.31.45:809][861]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.31.45:811][861]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.254
+[2017.08.04-18.31.46:728][958]LogBlueprintUserMessages: [ball_143] X=-173.784 Y=623.895 Z=91.000
+[2017.08.04-18.32.06:252][300]LogBlueprintUserMessages: [ball_143] X=12.682 Y=-59.950 Z=62.761
+[2017.08.04-18.32.14:966][303]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.04-18.34.10:859][677]Cmd: DELETE
+[2017.08.04-18.34.10:859][677]Cmd: ACTOR DELETE
+[2017.08.04-18.34.10:860][677]LogEditorActor: Deleted Actor: Brush
+[2017.08.04-18.34.10:898][677]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2017.08.04-18.34.23:064][125]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.08.04-18.34.35:183][561]Cmd: SELECT NONE
+[2017.08.04-18.34.50:239][297]Cmd: SELECT NONE
+[2017.08.04-18.34.59:037][331]Cmd: SELECT NONE
+[2017.08.04-18.35.00:713][531]Cmd: ACTOR SELECT ALL
+[2017.08.04-18.35.18:818][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-18.35.18:943][692]LogSavePackage: Save=95.59ms
+[2017.08.04-18.35.18:943][692]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test2EDF2F19E411BF82D22717CB0449C93CE.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-18.35.18:943][692]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-18.35.19:664][777]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.35.19:675][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.35.19:676][777]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:35:19 AM)
+[2017.08.04-18.35.19:676][777]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.35.19:679][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003651s)
+[2017.08.04-18.35.19:680][777]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.35.19:680][777]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2017.08.04-18.35.19:680][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004398s)
+[2017.08.04-18.35.19:715][777]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.35.19:720][777]LogInit: FAudioDevice initialized.
+[2017.08.04-18.35.19:752][777]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.35.19:754][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.35.19
+[2017.08.04-18.35.19:754][777]LogWorld: Bringing up level for play took: 0.000995
+[2017.08.04-18.35.19:754][777]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.35.19:754][777]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.35.19:754][777]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.35.19:756][777]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.35.19:756][777]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.309
+[2017.08.04-18.35.20:596][878]LogBlueprintUserMessages: [ball_143] X=-387.047 Y=734.676 Z=91.000
+[2017.08.04-18.35.22:205][ 71]LogBlueprintUserMessages: [ball_143] X=327.723 Y=-1435.172 Z=90.388
+[2017.08.04-18.35.46:947][ 40]LogBlueprintUserMessages: [ball_143] X=-2041.273 Y=-1479.715 Z=85.413
+[2017.08.04-18.36.07:506][226]Cmd: ACTOR SELECT ALL
+[2017.08.04-18.36.10:897][589]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.36.10:910][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.36.10:910][589]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:36:10 AM)
+[2017.08.04-18.36.10:910][589]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.36.10:914][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003218s)
+[2017.08.04-18.36.10:914][589]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.36.10:914][589]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.08.04-18.36.10:914][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.004055s)
+[2017.08.04-18.36.10:949][589]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.36.10:954][589]LogInit: FAudioDevice initialized.
+[2017.08.04-18.36.10:986][589]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.36.10:987][589]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.36.10
+[2017.08.04-18.36.10:987][589]LogWorld: Bringing up level for play took: 0.000865
+[2017.08.04-18.36.10:987][589]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.36.10:987][589]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.36.10:987][589]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.36.10:989][589]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.36.10:989][589]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 0.924
+[2017.08.04-18.36.11:912][700]LogBlueprintUserMessages: [ball_143] X=-262.954 Y=658.598 Z=91.000
+[2017.08.04-18.36.12:954][825]LogBlueprintUserMessages: [ball_143] X=-566.471 Y=-3463.960 Z=102.200
+[2017.08.04-18.36.14:504][ 11]LogBlueprintUserMessages: [ball_143] X=-2974.514 Y=-125.406 Z=102.200
+[2017.08.04-18.36.15:404][119]LogBlueprintUserMessages: [ball_143] X=-0.551 Y=53.274 Z=102.200
+[2017.08.04-18.36.17:979][428]LogBlueprintUserMessages: [ball_143] X=-275.787 Y=-247.757 Z=102.200
+[2017.08.04-18.36.18:938][543]LogBlueprintUserMessages: [ball_143] X=-3146.189 Y=-1563.209 Z=102.200
+[2017.08.04-18.36.20:380][716]LogBlueprintUserMessages: [ball_143] X=-51.624 Y=-1507.082 Z=102.200
+[2017.08.04-18.36.21:647][868]LogBlueprintUserMessages: [ball_143] X=-1750.736 Y=412.908 Z=102.200
+[2017.08.04-18.36.51:469][363]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.36.51:481][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.36.51:481][363]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:36:51 AM)
+[2017.08.04-18.36.51:481][363]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.36.51:484][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003123s)
+[2017.08.04-18.36.51:485][363]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.36.51:485][363]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2017.08.04-18.36.51:485][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.003948s)
+[2017.08.04-18.36.51:520][363]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.36.51:525][363]LogInit: FAudioDevice initialized.
+[2017.08.04-18.36.51:559][363]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.36.51:560][363]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.36.51
+[2017.08.04-18.36.51:560][363]LogWorld: Bringing up level for play took: 0.000958
+[2017.08.04-18.36.51:560][363]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.36.51:560][363]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.36.51:560][363]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.36.51:561][363]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.36.51:561][363]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.504
+[2017.08.04-18.36.52:166][434]LogBlueprintUserMessages: [ball_143] X=-494.769 Y=660.825 Z=91.000
+[2017.08.04-18.36.52:891][521]LogBlueprintUserMessages: [ball_143] X=-305.546 Y=-4048.068 Z=102.200
+[2017.08.04-18.36.54:482][712]LogBlueprintUserMessages: [ball_143] X=361.695 Y=897.632 Z=108.380
+[2017.08.04-18.36.55:508][835]LogBlueprintUserMessages: [ball_143] X=670.477 Y=1436.411 Z=104.444
+[2017.08.04-18.37.03:785][777]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.04-18.37.03:797][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.04-18.37.03:798][777]PIE: New page: PIE session: Level_test2 (Aug 5, 2017, 12:37:03 AM)
+[2017.08.04-18.37.03:798][777]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test2
+[2017.08.04-18.37.03:801][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003190s)
+[2017.08.04-18.37.03:801][777]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.04-18.37.03:801][777]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2017.08.04-18.37.03:802][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test2.Level_test2 to /Game/Levels/UEDPIE_0_Level_test2.Level_test2 (0.003940s)
+[2017.08.04-18.37.03:836][777]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.04-18.37.03:841][777]LogInit: FAudioDevice initialized.
+[2017.08.04-18.37.03:870][777]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.04-18.37.03:871][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.04-21.37.03
+[2017.08.04-18.37.03:871][777]LogWorld: Bringing up level for play took: 0.000872
+[2017.08.04-18.37.03:872][777]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.37.03:872][777]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.04-18.37.03:872][777]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.37.03:873][777]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.04-18.37.03:873][777]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test2 -0.192
+[2017.08.04-18.37.04:548][858]LogBlueprintUserMessages: [ball_143] X=-443.867 Y=702.959 Z=91.000
+[2017.08.04-18.37.05:206][937]LogBlueprintUserMessages: [ball_143] X=-3241.436 Y=-1058.752 Z=102.200
+[2017.08.04-18.37.11:207][657]LogBlueprintUserMessages: [ball_143] X=2645.000 Y=1314.464 Z=93.699
+[2017.08.04-18.37.12:098][764]LogBlueprintUserMessages: [ball_143] X=-2662.140 Y=-2003.604 Z=102.200
+[2017.08.04-18.37.15:232][140]LogBlueprintUserMessages: [ball_143] X=-2.083 Y=48.281 Z=102.200
+[2017.08.04-18.37.16:490][291]LogBlueprintUserMessages: [ball_143] X=81.824 Y=630.208 Z=102.200
+[2017.08.04-18.37.17:348][394]LogBlueprintUserMessages: [ball_143] X=1583.248 Y=1860.000 Z=100.921
+[2017.08.04-18.37.18:173][493]LogBlueprintUserMessages: [ball_143] X=-2577.874 Y=-846.588 Z=102.200
+[2017.08.04-18.37.18:932][584]LogBlueprintUserMessages: [ball_143] X=-275.569 Y=-21.164 Z=102.200
+[2017.08.04-18.37.19:732][680]LogBlueprintUserMessages: [ball_143] X=1525.688 Y=1613.531 Z=102.200
+[2017.08.04-18.37.20:474][769]LogBlueprintUserMessages: [ball_143] X=0.000 Y=43.426 Z=104.471
+[2017.08.04-18.37.21:615][906]LogBlueprintUserMessages: [ball_143] X=-788.959 Y=373.020 Z=102.200
+[2017.08.04-18.37.25:874][417]LogBlueprintUserMessages: [ball_143] X=327.123 Y=156.187 Z=102.200
+[2017.08.04-18.37.27:407][601]LogBlueprintUserMessages: [ball_143] X=2150.731 Y=-1363.617 Z=102.200
+[2017.08.04-18.37.28:815][770]LogBlueprintUserMessages: [ball_143] X=-1543.372 Y=1340.218 Z=102.200
+[2017.08.04-18.37.30:032][916]LogBlueprintUserMessages: [ball_143] X=-3305.000 Y=-3547.201 Z=99.083
+[2017.08.04-18.37.35:366][556]LogBlueprintUserMessages: [ball_143] X=29.567 Y=1380.471 Z=102.200
+[2017.08.04-18.37.36:541][697]LogBlueprintUserMessages: [ball_143] X=-360.665 Y=-1948.965 Z=102.200
+[2017.08.04-18.37.40:041][117]LogBlueprintUserMessages: [ball_143] X=-1219.111 Y=-881.340 Z=102.200
+[2017.08.04-18.37.52:250][582]LogBlueprintUserMessages: [ball_143] X=-562.076 Y=-347.532 Z=102.200
+[2017.08.04-18.37.53:092][683]LogBlueprintUserMessages: [ball_143] X=522.180 Y=775.519 Z=102.200
+[2017.08.04-18.37.53:683][754]LogBlueprintUserMessages: [ball_143] X=1221.749 Y=1723.762 Z=101.803
+[2017.08.04-18.37.54:375][837]LogBlueprintUserMessages: [ball_143] X=994.838 Y=1492.543 Z=102.200
+[2017.08.04-18.37.54:992][911]LogBlueprintUserMessages: [ball_143] X=-1910.842 Y=-432.113 Z=102.200
+[2017.08.04-18.37.55:750][  2]LogBlueprintUserMessages: [ball_143] X=-1960.131 Y=-1612.155 Z=106.534
+[2017.08.04-18.37.56:625][107]LogBlueprintUserMessages: [ball_143] X=-440.316 Y=-953.755 Z=102.200
+[2017.08.04-18.38.01:767][724]LogBlueprintUserMessages: [ball_143] X=-1355.333 Y=521.262 Z=102.200
+[2017.08.04-18.38.02:459][807]LogBlueprintUserMessages: [ball_143] X=-206.549 Y=54.819 Z=102.200
+[2017.08.04-18.38.03:034][876]LogBlueprintUserMessages: [ball_143] X=-1079.461 Y=-3245.677 Z=102.200
+[2017.08.04-18.38.04:398][ 37]LogBlueprintUserMessages: [ball_143] X=-500.995 Y=475.801 Z=102.200
+[2017.08.04-18.38.05:048][115]LogBlueprintUserMessages: [ball_143] X=-2788.565 Y=-249.053 Z=102.200
+[2017.08.04-18.38.06:156][248]LogBlueprintUserMessages: [ball_143] X=-2056.692 Y=-2262.250 Z=102.200
+[2017.08.04-18.38.07:581][419]LogBlueprintUserMessages: [ball_143] X=261.787 Y=-1434.859 Z=102.200
+[2017.08.04-18.38.09:281][623]LogBlueprintUserMessages: [ball_143] X=-756.954 Y=939.981 Z=102.200
+[2017.08.04-18.38.10:823][808]LogBlueprintUserMessages: [ball_143] X=-2772.558 Y=-6.147 Z=102.200
+[2017.08.04-18.38.15:182][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test2" FILE="../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.04-18.38.15:257][318]LogSavePackage: Save=46.20ms
+[2017.08.04-18.38.15:257][318]LogSavePackage: Moving '../../../../../../projects/PatchBounce/Saved/Level_test227AF56C6449FB1784E46B88B146C846D.tmp' to '../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap'
+[2017.08.04-18.38.15:258][318]LogSavePackage:Display: Finished SavePackage ../../../../../../projects/PatchBounce/Content/Levels/Level_test2.umap
+[2017.08.04-18.38.21:183][ 22]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.04-18.38.21:900][ 22]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.717 s
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: 
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: Stack: 
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0F6E256
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0D1B862
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0D31E26
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000EBC47556
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000E8A4D27B
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000E79224AA
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000E77C72CC
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000E77CA6D9
+[2017.08.04-18.38.21:900][ 22]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000E78E8035
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ED06DB57
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ED074B61
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ED2948D3
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ED0CF604
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ED0A77FC
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ED09814C
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0F61550
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0F4B771
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0F6337B
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0F47AC2
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: USER32.dll!0x0000000014ABBC50
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: USER32.dll!0x0000000014ABB5CF
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F0F63C86
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000B4C5DB44
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000B4C4F0B0
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000B4C4F12A
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000B4C60CF9
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000B4C625F7
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: KERNEL32.DLL!0x0000000013102774
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: ntdll.dll!0x0000000015420D61
+[2017.08.04-18.38.21:901][ 22]LogOutputDevice:Error: 
+[2017.08.04-18.38.21:910][ 22]LogStats:                SubmitErrorReport -  0.000 s
