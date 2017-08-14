@@ -23,3 +23,6 @@
 ![1](https://user-images.githubusercontent.com/11897341/29252040-cd35e4dc-8068-11e7-9887-c6fe355f95b6.png)
 ![2](https://user-images.githubusercontent.com/11897341/29252039-cd357182-8068-11e7-8f1a-a64add187342.png)
 ![3](https://user-images.githubusercontent.com/11897341/29252038-cd355008-8068-11e7-840b-3ee1b49f7da8.png)
+
+Добавил в проект горячие клавиши.
+![default](https://user-images.githubusercontent.com/11897341/29291944-e78b79ec-814d-11e7-9d79-cad96355c02c.jpg)
