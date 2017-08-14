@@ -1,0 +1,1431 @@
+﻿Log file open, 08/14/17 18:10:11
+LogInit:Display: Running engine for game: PatchBounce
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1263382523) SRandInit(1263382523).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.055681
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: I:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.14-15.10.11:561][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.14-15.10.11:561][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.14-15.10.11:574][  0]LogInit: Computer: PC-LITE
+[2017.08.14-15.10.11:574][  0]LogInit: User: User
+[2017.08.14-15.10.11:574][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.14-15.10.11:574][  0]LogInit: High frequency timer resolution =3.609372 MHz
+[2017.08.14-15.10.11:574][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.14-15.10.11:574][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-15.10.11:574][  0]LogMemory: Process Physical Memory: 272.93 MB used, 272.93 MB peak
+[2017.08.14-15.10.11:574][  0]LogMemory: Process Virtual Memory: 266.18 MB used, 266.18 MB peak
+[2017.08.14-15.10.11:574][  0]LogMemory: Physical Memory: 3021.20 MB used,  5114.89 MB free, 8136.09 MB total
+[2017.08.14-15.10.11:574][  0]LogMemory: Virtual Memory: 642.04 MB used,  5114.89 MB free, 134217728.00 MB total
+[2017.08.14-15.10.11:630][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.14-15.10.11:630][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.08.14-15.10.11:632][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.14-15.10.11:632][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.08.14-15.10.12:418][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.14-15.10.13:052][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.08.14-15.10.13:052][  0]LogD3D11RHI:       4014/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.14-15.10.13:053][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.14-15.10.13:053][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.14-15.10.13:053][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.14-15.10.13:056][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.14-15.10.13:056][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.14-15.10.13:056][  0]LogWindows: EnumDisplayDevices:
+[2017.08.14-15.10.13:057][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2017.08.14-15.10.13:057][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2017.08.14-15.10.13:057][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.08.14-15.10.13:057][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.08.14-15.10.13:057][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.14-15.10.13:057][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.08.14-15.10.13:057][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.08.14-15.10.13:057][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.08.14-15.10.13:057][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.14-15.10.13:643][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.14-15.10.13:722][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.14-15.10.13:814][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (F:/git/UE4_Ball/Intermediate/Shaders/WorkingDirectory/812/).
+[2017.08.14-15.10.13:815][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/TEMP/Temp/UnrealShaderWorkingDir/57104D3145C9B38E12266AB1C610CD72/'.
+[2017.08.14-15.10.13:815][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.14-15.10.14:676][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.14-15.10.14:708][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.14-15.10.14:740][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.14-15.10.14:772][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.14-15.10.14:804][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.14-15.10.14:835][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.14-15.10.14:879][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.14-15.10.14:932][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.14-15.10.14:958][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.14-15.10.14:989][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.14-15.10.15:033][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.14-15.10.15:063][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.14-15.10.15:094][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.14-15.10.15:124][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.14-15.10.15:155][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.14-15.10.15:217][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.14-15.10.15:217][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.14-15.10.15:240][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.14-15.10.15:306][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.14-15.10.15:327][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.14-15.10.15:357][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.14-15.10.15:388][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.14-15.10.15:419][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.14-15.10.15:450][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.14-15.10.15:450][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.14-15.10.15:744][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.14-15.10.15:842][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.14-15.10.15:842][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.14-15.10.15:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/git/UE4_Ball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.14-15.10.15:843][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.14-15.10.15:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/git/UE4_Ball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.14-15.10.15:843][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.14-15.10.15:859][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.14-15.10.15:871][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.14-15.10.15:880][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.14-15.10.15:881][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.14-15.10.15:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.14-15.10.15:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.14-15.10.16:146][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.14-15.10.16:218][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.14-15.10.16:367][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.14-15.10.16:395][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.14-15.10.16:442][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.14-15.10.16:442][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.14-15.10.16:442][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.14-15.10.16:923][  0]LogNetVersion: PatchBounce , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1608629453)
+[2017.08.14-15.10.16:973][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.08.14-15.10.17:032][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.031499 seconds
+[2017.08.14-15.10.17:037][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.14-15.10.17:037][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.14-15.10.17:037][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.14-15.10.17:073][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.14-15.10.18:906][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.14-15.10.18:934][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.14-15.10.19:241][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.14-15.10.19:479][  0]SourceControl: Info Source control is disabled
+[2017.08.14-15.10.19:480][  0]SourceControl: Info Source control is disabled
+[2017.08.14-15.10.19:503][  0]SourceControl: Info Source control is disabled
+[2017.08.14-15.10.19:527][  0]SourceControl: Info Source control is disabled
+[2017.08.14-15.10.19:661][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.14-15.10.19:661][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.14-15.10.19:661][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.08.14-15.10.19:892][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.14-15.10.20:207][  0]LogEngine: Initializing Engine...
+[2017.08.14-15.10.20:207][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.14-15.10.20:389][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.14-15.10.20:389][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.14-15.10.20:464][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.14-15.10.20:471][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-15.10.20:487][  0]LogInit: FAudioDevice initialized.
+[2017.08.14-15.10.20:529][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.14-15.10.20:542][  0]LogInit: Texture streaming: Enabled
+[2017.08.14-15.10.20:593][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.14-15.10.20:712][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.14-15.10.20:724][  0]LogInit: Transaction tracking system initialized
+[2017.08.14-15.10.20:881][  0]BlueprintLog: New page: Editor Load
+[2017.08.14-15.10.21:365][  0]LocalizationService: Info Localization service is disabled
+[2017.08.14-15.10.21:728][  0]LogConsoleResponse:Display: 
+[2017.08.14-15.10.21:913][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.14-15.10.21:913][  0]LogCook:Display: Mobile HDR setting 0
+[2017.08.14-15.10.22:126][  0]LogFileCache: Scanning file cache for directory 'F:/git/UE4_Ball/Content/' took 0.01s
+[2017.08.14-15.10.22:436][  0]SourceControl: Info Source control is disabled
+[2017.08.14-15.10.22:436][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.14-15.10.22:437][  0]LightingResults: New page: Lighting Build
+[2017.08.14-15.10.22:458][  0]MapCheck: New page: Map Check
+[2017.08.14-15.10.22:458][  0]LightingResults: New page: Lighting Build
+[2017.08.14-15.10.22:632][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.14-15.10.22:633][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.14-15.10.22:638][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.14-15.10.22:657][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.14-15.10.22:681][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.023ms to complete.
+[2017.08.14-15.10.22:681][  0]LogFileHelpers: Loading map 'Template_Default' took 0.245
+[2017.08.14-15.10.23:428][  0]LogCollectionManager: Loaded 0 collections in 0.001052 seconds
+[2017.08.14-15.10.23:692][  0]LogFileCache: Scanning file cache for directory 'F:/git/UE4_Ball/Saved/Collections/' took 0.01s
+[2017.08.14-15.10.23:692][  0]LogFileCache: Scanning file cache for directory 'F:/git/UE4_Ball/Content/Developers/User/Collections/' took 0.01s
+[2017.08.14-15.10.23:692][  0]LogFileCache: Scanning file cache for directory 'F:/git/UE4_Ball/Content/Collections/' took 0.01s
+[2017.08.14-15.10.23:692][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.14-15.10.23:717][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2334 classes and 495 folders.
+[2017.08.14-15.10.23:787][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.14-15.10.24:600][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.08.14-15.10.24:750][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.14-15.10.25:255][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.14-15.10.25:330][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.14-15.10.25:353][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.14-15.10.25:376][  0]LogSlate: Took 0.011186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.14-15.10.25:631][  0]LogRenderer: Reallocating scene render targets to support 1012x936 NumSamples 1 (Frame:1).
+[2017.08.14-15.10.26:069][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.14-15.10.26:137][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.14-15.10.26:137][  0]LogLoad: (Engine Initialization) Total time: 16.08 seconds
+[2017.08.14-15.10.26:137][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.08.14-15.10.26:137][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.14-15.10.26:147][  0]LogOcInput: OculusInput pre-init called
+[2017.08.14-15.10.26:147][  0]LogHMD: Starting GearVRController plugin
+[2017.08.14-15.10.26:176][  0]LogAssetRegistry: Asset discovery search completed in 9.2243 seconds
+[2017.08.14-15.10.26:178][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.14-15.10.26:178][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.08.14-15.10.26:214][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.08.14-15.10.26:360][  0]LogSlate: Took 0.011171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.14-15.10.28:817][235]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.14-15.10.29:747][235]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.14-15.10.29:881][235]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.10.29:990][235]Cmd: MAP LOAD FILE="F:/git/UE4_Ball/Content/Levels/Level_test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.14-15.10.29:990][235]LightingResults: New page: Lighting Build
+[2017.08.14-15.10.29:991][235]LoadErrors: New page: Loading map: Level_test.umap
+[2017.08.14-15.10.29:991][235]MapCheck: New page: Map Check
+[2017.08.14-15.10.29:991][235]LightingResults: New page: Lighting Build
+[2017.08.14-15.10.30:048][235]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.14-15.10.30:074][235]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.14-15.10.30:098][235]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.95ms to complete.
+[2017.08.14-15.10.30:098][235]LogFileHelpers: Loading map 'Level_test' took 0.108
+[2017.08.14-15.29.17:071][350]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.08.14-15.29.18:946][350]LogSlate: Took 0.014251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.14-15.29.21:007][452]LogSlate: Took 0.050262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.14-15.29.57:250][588]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.14-15.29.57:250][588]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.14-15.33.50:606][ 99]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.14-15.33.59:466][148]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_test' took 0.029
+[2017.08.14-15.33.59:614][148]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LevelLogic] ([1] browsable assets)...
+[2017.08.14-15.33.59:614][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LevelLogic]
+[2017.08.14-15.33.59:614][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/LevelLogic" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.14-15.34.00:148][148]LogSavePackage: Save=292.33ms
+[2017.08.14-15.34.00:148][148]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/LevelLogic_Auto18932CA1641E08089C3EE5AA456A97A3A.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto1.uasset'
+[2017.08.14-15.34.00:156][148]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto1.uasset
+[2017.08.14-15.34.00:156][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ball] ([1] browsable assets)...
+[2017.08.14-15.34.00:177][148]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Models/ball.ball]
+[2017.08.14-15.34.00:177][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ball]
+[2017.08.14-15.34.00:177][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.14-15.34.00:265][148]LogSavePackage: Save=80.00ms
+[2017.08.14-15.34.00:265][148]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/ball_Auto1BD4D583048ECDC8B602991B0ACFFAA06.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto1.uasset'
+[2017.08.14-15.34.00:275][148]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto1.uasset
+[2017.08.14-15.34.00:275][148]LogFileHelpers: Auto-saving content packages took 0.808
+[2017.08.14-15.36.45:621][887]BlueprintLog: New page: Compile ball
+[2017.08.14-15.36.47:704][ 76]LogSlate: Took 0.017287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.14-15.37.13:842][972]BlueprintLog: New page: Compile ball
+[2017.08.14-15.37.15:204][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="F:/git/UE4_Ball/Content/Models/ball.uasset" SILENT=true
+[2017.08.14-15.37.15:281][ 94]LogSavePackage: Save=70.13ms
+[2017.08.14-15.37.15:281][ 94]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/ballC572111C4F0FF752B9B42E863E4DD366.tmp' to 'F:/git/UE4_Ball/Content/Models/ball.uasset'
+[2017.08.14-15.37.15:281][ 94]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Content/Models/ball.uasset
+[2017.08.14-15.37.16:437][232]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-15.37.16:516][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-15.37.16:582][232]PIE: New page: PIE session: Level_test (Aug 14, 2017, 9:37:16 PM)
+[2017.08.14-15.37.16:583][232]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.37.16:643][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059722s)
+[2017.08.14-15.37.16:644][232]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.37.16:645][232]LogPlayLevel: PIE: World Init took: (0.001664s)
+[2017.08.14-15.37.16:645][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.062067s)
+[2017.08.14-15.37.16:731][232]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-15.37.16:740][232]LogInit: FAudioDevice initialized.
+[2017.08.14-15.37.16:800][232]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.37.16:820][232]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.37.16
+[2017.08.14-15.37.16:853][232]LogWorld: Bringing up level for play took: 0.037020
+[2017.08.14-15.37.16:984][232]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.14-15.37.16:984][232]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.16:984][232]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.16:984][232]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.17:087][232]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.17:087][232]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test 1.019
+[2017.08.14-15.37.19:973][564]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.37.19:973][564]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.37.19:973][564]LogNet: Browse: /Game/Levels/Level_test
+[2017.08.14-15.37.19:973][564]LogLoad: LoadMap: /Game/Levels/Level_test
+[2017.08.14-15.37.20:002][564]Cmd: MEM
+[2017.08.14-15.37.20:130][564]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-15.37.20:130][564]LogMemory: Process Physical Memory: 1585.61 MB used, 1587.12 MB peak
+[2017.08.14-15.37.20:130][564]LogMemory: Process Virtual Memory: 2628.80 MB used, 2630.88 MB peak
+[2017.08.14-15.37.20:130][564]LogMemory: Physical Memory: 3183.03 MB used,  4953.05 MB free, 8136.09 MB total
+[2017.08.14-15.37.20:130][564]LogMemory: Virtual Memory: 3491.35 MB used,  4953.05 MB free, 134217728.00 MB total
+[2017.08.14-15.37.20:130][564]LogMemory: 
+[2017.08.14-15.37.20:130][564]Allocator Stats for TBB: (not implemented)
+[2017.08.14-15.37.20:139][564]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.37.20:144][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005090s)
+[2017.08.14-15.37.20:144][564]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.37.20:144][564]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.08.14-15.37.20:145][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005884s)
+[2017.08.14-15.37.20:145][564]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.37.20:146][564]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.37.20
+[2017.08.14-15.37.20:146][564]LogWorld: Bringing up level for play took: 0.001267
+[2017.08.14-15.37.20:147][564]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.37.20:147][564]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.20:147][564]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.20:147][564]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.20:150][564]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.20:150][564]LogLoad: Took 0.176628 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level_test)
+[2017.08.14-15.37.23:045][906]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:067][907]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:084][908]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:096][909]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:105][910]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:113][911]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:122][912]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:130][913]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:139][914]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:147][915]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:155][916]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:163][917]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:172][918]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:180][919]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:188][920]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:197][921]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:205][922]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:214][923]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:222][924]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:230][925]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:239][926]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:247][927]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:255][928]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:264][929]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:272][930]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:280][931]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:289][932]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:297][933]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:305][934]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:314][935]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:322][936]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:330][937]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:338][938]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:347][939]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:355][940]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:364][941]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:372][942]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:380][943]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:388][944]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:397][945]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:406][946]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:414][947]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:422][948]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:430][949]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:439][950]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.23:447][951]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.28:814][595]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.37.28:814][595]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.37.28:814][595]LogNet: Browse: /Game/Levels/Level_test2
+[2017.08.14-15.37.28:815][595]LogLoad: LoadMap: /Game/Levels/Level_test2
+[2017.08.14-15.37.28:842][595]Cmd: MEM
+[2017.08.14-15.37.28:869][595]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-15.37.28:869][595]LogMemory: Process Physical Memory: 1581.44 MB used, 1587.12 MB peak
+[2017.08.14-15.37.28:869][595]LogMemory: Process Virtual Memory: 2625.77 MB used, 2693.57 MB peak
+[2017.08.14-15.37.28:869][595]LogMemory: Physical Memory: 3178.39 MB used,  4957.69 MB free, 8136.09 MB total
+[2017.08.14-15.37.28:869][595]LogMemory: Virtual Memory: 3507.35 MB used,  4957.69 MB free, 134217728.00 MB total
+[2017.08.14-15.37.28:869][595]LogMemory: 
+[2017.08.14-15.37.28:869][595]Allocator Stats for TBB: (not implemented)
+[2017.08.14-15.37.29:987][595]LogAIModule: Creating AISystem for world Level_test2
+[2017.08.14-15.37.29:988][595]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.37.29:994][595]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test2.Level_test2 up for play (max tick rate 0) at 2017.08.14-18.37.29
+[2017.08.14-15.37.29:995][595]LogWorld: Bringing up level for play took: 0.006125
+[2017.08.14-15.37.29:995][595]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.37.29:995][595]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.29:995][595]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.29:995][595]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.29:996][595]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.37.29:999][595]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.29:999][595]LogLoad: Took 1.184842 seconds to LoadMap(/Game/Levels/Level_test2)
+[2017.08.14-15.37.32:405][881]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.37.32:405][881]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.37.32:406][881]LogNet: Browse: /Game/Levels/Level_test
+[2017.08.14-15.37.32:406][881]LogLoad: LoadMap: /Game/Levels/Level_test
+[2017.08.14-15.37.32:434][881]Cmd: MEM
+[2017.08.14-15.37.32:459][881]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-15.37.32:459][881]LogMemory: Process Physical Memory: 1679.32 MB used, 1684.19 MB peak
+[2017.08.14-15.37.32:459][881]LogMemory: Process Virtual Memory: 2809.46 MB used, 2814.34 MB peak
+[2017.08.14-15.37.32:459][881]LogMemory: Physical Memory: 3226.64 MB used,  4909.45 MB free, 8136.09 MB total
+[2017.08.14-15.37.32:459][881]LogMemory: Virtual Memory: 3646.98 MB used,  4909.45 MB free, 134217728.00 MB total
+[2017.08.14-15.37.32:459][881]LogMemory: 
+[2017.08.14-15.37.32:459][881]Allocator Stats for TBB: (not implemented)
+[2017.08.14-15.37.32:459][881]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.37.32:464][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004684s)
+[2017.08.14-15.37.32:464][881]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.37.32:464][881]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.08.14-15.37.32:465][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005450s)
+[2017.08.14-15.37.32:465][881]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.37.32:466][881]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.37.32
+[2017.08.14-15.37.32:466][881]LogWorld: Bringing up level for play took: 0.001365
+[2017.08.14-15.37.32:467][881]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.37.32:467][881]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.32:467][881]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.37.32:467][881]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.32:468][881]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.37.32:470][881]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.37.32:470][881]LogLoad: Took 0.064599 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level_test)
+[2017.08.14-15.37.32:948][938]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.32:956][939]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.32:964][940]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.32:973][941]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.32:981][942]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.32:989][943]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.32:998][944]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:006][945]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:015][946]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:023][947]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:031][948]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:040][949]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:048][950]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:056][951]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:065][952]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:073][953]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:081][954]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:090][955]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:098][956]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:106][957]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:114][958]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:123][959]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:131][960]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:140][961]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:148][962]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:156][963]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:164][964]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:173][965]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:181][966]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:190][967]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:198][968]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:206][969]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:214][970]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:223][971]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:231][972]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:240][973]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:248][974]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:256][975]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:264][976]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:273][977]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:281][978]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:290][979]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:298][980]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:307][981]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:316][982]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:324][983]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:332][984]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:340][985]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.33:349][986]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.37.38:392][554]Cmd: SELECT NONE
+[2017.08.14-15.38.05:339][774]LogEditorTransaction: Undo Move Node
+[2017.08.14-15.38.11:983][557]BlueprintLog: New page: Compile ball
+[2017.08.14-15.38.11:999][557]LogBlueprint:Error: [Compiler ball] Error This blueprint (self) is not a Gm_instanse_C, therefore ' Target ' must have a connection.
+[2017.08.14-15.38.11:999][557]LogBlueprint:Error: [Compiler ball] Error Variable node  Set LvlData  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.08.14-15.38.12:167][557]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Gm_instanse_C, therefore ' Target ' must have a connection.
+[2017.08.14-15.38.12:167][557]BlueprintEditorCompileResults:Error: Error Variable node  Set LvlData  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.08.14-15.38.12:167][557]LogBlueprint:Warning: [Compiler ball] Warning [1682.10] Compile of ball failed. 2 Fatal Issue(s) 0 Warning(s) [in 184 ms] (/Game/Models/ball.ball)
+[2017.08.14-15.38.18:077][263]LogEditorTransaction: Undo Move Node
+[2017.08.14-15.38.18:562][314]LogEditorTransaction: Undo Break Pin Links
+[2017.08.14-15.38.18:932][354]LogEditorTransaction: Undo Create Pin Link
+[2017.08.14-15.38.19:425][409]LogEditorTransaction: Undo Break Pin Links
+[2017.08.14-15.38.19:807][451]LogEditorTransaction: Undo Create Pin Link
+[2017.08.14-15.38.21:132][606]BlueprintLog: New page: Compile ball
+[2017.08.14-15.38.21:149][606]LogBlueprint:Error: [Compiler ball] Error The type of  Object  is undetermined.  Connect something to  Cast To Gm_instanse  to imply a specific type.
+[2017.08.14-15.38.21:149][606]LogBlueprint:Error: [Compiler ball] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.08.14-15.38.21:357][606]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Gm_instanse  to imply a specific type.
+[2017.08.14-15.38.21:357][606]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.08.14-15.38.21:358][606]LogBlueprint:Warning: [Compiler ball] Warning [1691.30] Compile of ball failed. 2 Fatal Issue(s) 0 Warning(s) [in 225 ms] (/Game/Models/ball.ball)
+[2017.08.14-15.38.28:861][503]LogEditorTransaction: Undo Move Node
+[2017.08.14-15.38.29:276][545]LogEditorTransaction: Undo Move Node
+[2017.08.14-15.38.29:677][588]LogEditorTransaction: Undo Delete current selection
+[2017.08.14-15.38.32:103][874]BlueprintLog: New page: Compile ball
+[2017.08.14-15.38.35:176][221]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-15.38.35:194][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-15.38.35:194][221]PIE: New page: PIE session: Level_test (Aug 14, 2017, 9:38:35 PM)
+[2017.08.14-15.38.35:199][221]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.38.35:204][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004688s)
+[2017.08.14-15.38.35:205][221]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.38.35:205][221]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.08.14-15.38.35:205][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005515s)
+[2017.08.14-15.38.35:235][221]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-15.38.35:243][221]LogInit: FAudioDevice initialized.
+[2017.08.14-15.38.35:277][221]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.38.35:280][221]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.38.35
+[2017.08.14-15.38.35:280][221]LogWorld: Bringing up level for play took: 0.001776
+[2017.08.14-15.38.35:280][221]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.38.35:280][221]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.38.35:280][221]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.38.35:281][221]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.38.35:283][221]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.38.35:284][221]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test -0.785
+[2017.08.14-15.38.38:042][549]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.38.38:042][549]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.38.38:042][549]LogNet: Browse: /Game/Levels/Level_test
+[2017.08.14-15.38.38:042][549]LogLoad: LoadMap: /Game/Levels/Level_test
+[2017.08.14-15.38.38:070][549]Cmd: MEM
+[2017.08.14-15.38.38:096][549]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-15.38.38:096][549]LogMemory: Process Physical Memory: 1634.48 MB used, 1746.70 MB peak
+[2017.08.14-15.38.38:096][549]LogMemory: Process Virtual Memory: 2674.66 MB used, 2814.34 MB peak
+[2017.08.14-15.38.38:096][549]LogMemory: Physical Memory: 3188.43 MB used,  4947.66 MB free, 8136.09 MB total
+[2017.08.14-15.38.38:096][549]LogMemory: Virtual Memory: 3554.98 MB used,  4947.66 MB free, 134217728.00 MB total
+[2017.08.14-15.38.38:096][549]LogMemory: 
+[2017.08.14-15.38.38:096][549]Allocator Stats for TBB: (not implemented)
+[2017.08.14-15.38.38:096][549]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.38.38:100][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004690s)
+[2017.08.14-15.38.38:101][549]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.38.38:101][549]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.08.14-15.38.38:101][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005441s)
+[2017.08.14-15.38.38:101][549]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.38.38:103][549]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.38.38
+[2017.08.14-15.38.38:103][549]LogWorld: Bringing up level for play took: 0.001296
+[2017.08.14-15.38.38:103][549]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.38.38:103][549]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.38.38:103][549]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.38.38:103][549]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.38.38:104][549]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.38.38:106][549]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.38.38:106][549]LogLoad: Took 0.063981 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level_test)
+[2017.08.14-15.38.41:814][994]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.38.41:814][994]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 379
+[2017.08.14-15.38.41:814][994]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Models/ball.ball_C:InpAxisEvt_DelSaveZ_K2Node_InputAxisEvent_0
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball
+
+[2017.08.14-15.39.36:932][707]BlueprintLog: New page: Compile ball
+[2017.08.14-15.39.38:350][830]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-15.39.38:368][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-15.39.38:368][830]PIE: New page: PIE session: Level_test (Aug 14, 2017, 9:39:38 PM)
+[2017.08.14-15.39.38:369][830]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.39.38:374][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004632s)
+[2017.08.14-15.39.38:374][830]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.39.38:374][830]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2017.08.14-15.39.38:374][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005392s)
+[2017.08.14-15.39.38:404][830]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-15.39.38:413][830]LogInit: FAudioDevice initialized.
+[2017.08.14-15.39.38:637][830]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.39.38:640][830]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.39.38
+[2017.08.14-15.39.38:641][830]LogWorld: Bringing up level for play took: 0.002739
+[2017.08.14-15.39.38:641][830]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.39.38:642][830]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.39.38:642][830]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.39.38:642][830]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.39.38:643][830]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.39.38:648][830]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.39.38:653][830]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test 0.585
+[2017.08.14-15.39.38:710][830]LogRenderer: Reallocating scene render targets to support 1292x936 NumSamples 1 (Frame:1).
+[2017.08.14-15.39.42:622][184]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.39.42:622][184]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.39.42:622][184]LogNet: Browse: /Game/Levels/Level_test
+[2017.08.14-15.39.42:622][184]LogLoad: LoadMap: /Game/Levels/Level_test
+[2017.08.14-15.39.42:650][184]Cmd: MEM
+[2017.08.14-15.39.42:675][184]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-15.39.42:675][184]LogMemory: Process Physical Memory: 1622.93 MB used, 1746.70 MB peak
+[2017.08.14-15.39.42:675][184]LogMemory: Process Virtual Memory: 2294.70 MB used, 2814.34 MB peak
+[2017.08.14-15.39.42:675][184]LogMemory: Physical Memory: 3176.69 MB used,  4959.39 MB free, 8136.09 MB total
+[2017.08.14-15.39.42:675][184]LogMemory: Virtual Memory: 3243.41 MB used,  4959.39 MB free, 134217728.00 MB total
+[2017.08.14-15.39.42:675][184]LogMemory: 
+[2017.08.14-15.39.42:675][184]Allocator Stats for TBB: (not implemented)
+[2017.08.14-15.39.42:675][184]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.39.42:680][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004762s)
+[2017.08.14-15.39.42:680][184]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.39.42:680][184]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.08.14-15.39.42:681][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005519s)
+[2017.08.14-15.39.42:681][184]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.39.42:682][184]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.39.42
+[2017.08.14-15.39.42:682][184]LogWorld: Bringing up level for play took: 0.001217
+[2017.08.14-15.39.42:682][184]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.39.42:683][184]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.39.42:683][184]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.39.42:683][184]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.39.42:683][184]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.39.42:685][184]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.39.42:685][184]LogLoad: Took 0.063103 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level_test)
+[2017.08.14-15.39.47:050][589]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:060][590]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:071][591]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:083][592]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:094][593]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:105][594]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:116][595]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:267][609]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:278][610]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:289][611]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:301][612]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:312][613]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:323][614]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:334][615]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:346][616]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:468][627]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:478][628]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:489][629]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:500][630]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:511][631]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:522][632]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.47:533][633]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.39.57:083][659]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-15.39.57:101][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-15.39.57:101][659]PIE: New page: PIE session: Level_test (Aug 14, 2017, 9:39:57 PM)
+[2017.08.14-15.39.57:101][659]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.39.57:106][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004853s)
+[2017.08.14-15.39.57:107][659]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.39.57:107][659]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.08.14-15.39.57:107][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005693s)
+[2017.08.14-15.39.57:137][659]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-15.39.57:146][659]LogInit: FAudioDevice initialized.
+[2017.08.14-15.39.57:191][659]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.39.57:192][659]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.39.57
+[2017.08.14-15.39.57:192][659]LogWorld: Bringing up level for play took: 0.001245
+[2017.08.14-15.39.57:192][659]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.39.57:193][659]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.39.57:193][659]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.39.57:193][659]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.39.57:193][659]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.39.57:196][659]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.39.57:199][659]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test -0.869
+[2017.08.14-15.40.04:756][314]LogBlueprintUserMessages: [LevelLogic_719] 0
+[2017.08.14-15.40.07:565][570]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.40.07:565][570]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.08.14-15.40.07:566][570]LogNet: Browse: /Game/Levels/Level_test
+[2017.08.14-15.40.07:566][570]LogLoad: LoadMap: /Game/Levels/Level_test
+[2017.08.14-15.40.07:593][570]Cmd: MEM
+[2017.08.14-15.40.07:619][570]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-15.40.07:619][570]LogMemory: Process Physical Memory: 1614.43 MB used, 1746.70 MB peak
+[2017.08.14-15.40.07:619][570]LogMemory: Process Virtual Memory: 2290.40 MB used, 2814.34 MB peak
+[2017.08.14-15.40.07:619][570]LogMemory: Physical Memory: 3166.07 MB used,  4970.02 MB free, 8136.09 MB total
+[2017.08.14-15.40.07:619][570]LogMemory: Virtual Memory: 3235.41 MB used,  4970.02 MB free, 134217728.00 MB total
+[2017.08.14-15.40.07:619][570]LogMemory: 
+[2017.08.14-15.40.07:619][570]Allocator Stats for TBB: (not implemented)
+[2017.08.14-15.40.07:619][570]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.40.07:624][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004762s)
+[2017.08.14-15.40.07:624][570]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.40.07:625][570]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2017.08.14-15.40.07:625][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005508s)
+[2017.08.14-15.40.07:625][570]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.40.07:626][570]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.40.07
+[2017.08.14-15.40.07:626][570]LogWorld: Bringing up level for play took: 0.001215
+[2017.08.14-15.40.07:627][570]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.40.07:627][570]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.40.07:627][570]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.40.07:627][570]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.40.07:630][570]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.40.07:630][570]LogLoad: Took 0.063636 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level_test)
+[2017.08.14-15.40.08:788][676]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.08:799][677]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.08:810][678]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.08:821][679]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.08:832][680]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.08:843][681]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.08:854][682]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.08:865][683]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:086][703]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:097][704]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:108][705]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:119][706]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:130][707]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:142][708]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:289][721]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:300][722]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:312][723]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:323][724]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:334][725]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:346][726]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:356][727]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.09:368][728]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.40:154][ 82]BlueprintLog: New page: Compile ball
+[2017.08.14-15.40.41:704][240]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-15.40.41:722][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-15.40.41:722][240]PIE: New page: PIE session: Level_test (Aug 14, 2017, 9:40:41 PM)
+[2017.08.14-15.40.41:723][240]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-15.40.41:728][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004676s)
+[2017.08.14-15.40.41:728][240]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-15.40.41:728][240]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2017.08.14-15.40.41:729][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005426s)
+[2017.08.14-15.40.41:759][240]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-15.40.41:767][240]LogInit: FAudioDevice initialized.
+[2017.08.14-15.40.41:811][240]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-15.40.41:812][240]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-18.40.41
+[2017.08.14-15.40.41:812][240]LogWorld: Bringing up level for play took: 0.001176
+[2017.08.14-15.40.41:812][240]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-15.40.41:813][240]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.40.41:813][240]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-15.40.41:813][240]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.40.41:813][240]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-15.40.41:816][240]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-15.40.41:819][240]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test -0.25
+[2017.08.14-15.40.43:096][343]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-15.40.43:096][343]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 10
+[2017.08.14-15.40.43:096][343]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Models/ball.ball_C:InpAxisEvt_DelSaveZ_K2Node_InputAxisEvent_0
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball
+
+[2017.08.14-15.45.23:295][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Levels/Level_test_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.14-15.45.23:400][318]LogSavePackage: Save=97.75ms
+[2017.08.14-15.45.23:400][318]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/Level_test_Auto29E6667634BCB41345E430ABA502AC59D.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Levels/Level_test_Auto2.umap'
+[2017.08.14-15.45.23:401][318]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Levels/Level_test_Auto2.umap
+[2017.08.14-15.45.23:402][318]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_test' took 0.157
+[2017.08.14-15.45.23:402][318]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.157
+[2017.08.14-15.45.23:407][318]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LevelLogic] ([1] browsable assets)...
+[2017.08.14-15.45.23:407][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LevelLogic]
+[2017.08.14-15.45.23:407][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/LevelLogic" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.14-15.45.23:649][318]LogSavePackage: Save=235.45ms
+[2017.08.14-15.45.23:649][318]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/LevelLogic_Auto23CE355F4481535D7F34A4BA3BD8E30BD.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto2.uasset'
+[2017.08.14-15.45.23:650][318]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto2.uasset
+[2017.08.14-15.45.23:650][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ball] ([1] browsable assets)...
+[2017.08.14-15.45.23:704][318]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Models/ball.ball]
+[2017.08.14-15.45.23:704][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ball]
+[2017.08.14-15.45.23:704][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.14-15.45.23:782][318]LogSavePackage: Save=71.31ms
+[2017.08.14-15.45.23:782][318]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/ball_Auto2A7AC1DFF471D9CC887A2389A3F27C198.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto2.uasset'
+[2017.08.14-15.45.23:782][318]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto2.uasset
+[2017.08.14-15.45.23:782][318]LogFileHelpers: Auto-saving content packages took 0.377
+[2017.08.14-16.23.27:006][205]BlueprintLog: New page: Compile ball
+[2017.08.14-16.23.27:021][205]LogBlueprint:Error: [Compiler ball] Error The type of  Object  is undetermined.  Connect something to  Cast To Restart  to imply a specific type.
+[2017.08.14-16.23.27:021][205]LogBlueprint:Error: [Compiler ball] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.08.14-16.23.27:202][205]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Restart  to imply a specific type.
+[2017.08.14-16.23.27:202][205]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.08.14-16.23.27:202][205]LogBlueprint:Warning: [Compiler ball] Warning [4397.14] Compile of ball failed. 2 Fatal Issue(s) 0 Warning(s) [in 196 ms] (/Game/Models/ball.ball)
+[2017.08.14-16.23.40:115][730]BlueprintLog: New page: Compile ball
+[2017.08.14-16.23.41:314][853]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.23.41:323][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.23.41:323][853]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:23:41 PM)
+[2017.08.14-16.23.41:324][853]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.23.41:329][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004737s)
+[2017.08.14-16.23.41:329][853]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.23.41:329][853]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.08.14-16.23.41:329][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005558s)
+[2017.08.14-16.23.41:360][853]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.23.41:369][853]LogInit: FAudioDevice initialized.
+[2017.08.14-16.23.41:416][853]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.23.41:418][853]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.23.41
+[2017.08.14-16.23.41:418][853]LogWorld: Bringing up level for play took: 0.001210
+[2017.08.14-16.23.41:418][853]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.23.41:418][853]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.23.41:418][853]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.23.41:418][853]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.23.41:419][853]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.23.41:421][853]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.23.41:423][853]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test -0.645
+[2017.08.14-16.23.43:529][102]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:538][103]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:546][104]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:555][105]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:563][106]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:571][107]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:579][108]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:588][109]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:596][110]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:604][111]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:613][112]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.43:621][113]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:271][191]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:279][192]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:288][193]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:296][194]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:305][195]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:313][196]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:321][197]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:329][198]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:338][199]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:346][200]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:354][201]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:363][202]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:371][203]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:379][204]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:388][205]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:488][217]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:496][218]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:504][219]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:513][220]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:521][221]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:529][222]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:538][223]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:546][224]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:554][225]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:563][226]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:571][227]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:654][237]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:663][238]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:671][239]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:679][240]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:688][241]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:696][242]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:704][243]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:713][244]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:721][245]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:729][246]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:738][247]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.23.44:746][248]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.03:316][442]BlueprintLog: New page: Compile ball
+[2017.08.14-16.24.03:331][442]LogBlueprint:Error: [Compiler ball] Error This blueprint (self) is not a LevelLogic_C, therefore ' Target ' must have a connection.
+[2017.08.14-16.24.03:502][442]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LevelLogic_C, therefore ' Target ' must have a connection.
+[2017.08.14-16.24.03:502][442]LogBlueprint:Warning: [Compiler ball] Warning [4433.44] Compile of ball failed. 1 Fatal Issue(s) 0 Warning(s) [in 186 ms] (/Game/Models/ball.ball)
+[2017.08.14-16.24.26:175][136]BlueprintLog: New page: Compile ball
+[2017.08.14-16.24.27:592][289]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.24.27:601][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.24.27:602][289]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:24:27 PM)
+[2017.08.14-16.24.27:602][289]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.24.27:607][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004739s)
+[2017.08.14-16.24.27:607][289]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.24.27:607][289]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.08.14-16.24.27:607][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005462s)
+[2017.08.14-16.24.27:637][289]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.24.27:646][289]LogInit: FAudioDevice initialized.
+[2017.08.14-16.24.27:688][289]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.24.27:690][289]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.24.27
+[2017.08.14-16.24.27:690][289]LogWorld: Bringing up level for play took: 0.001215
+[2017.08.14-16.24.27:690][289]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.24.27:690][289]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.24.27:690][289]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.24.27:690][289]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.24.27:691][289]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.24.27:693][289]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.24.27:695][289]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test -0.373
+[2017.08.14-16.24.29:562][509]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:571][510]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:579][511]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:587][512]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:596][513]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:604][514]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:612][515]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:620][516]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:629][517]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:638][518]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.29:646][519]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:046][567]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:054][568]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:063][569]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:071][570]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:079][571]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:088][572]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:096][573]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:104][574]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:112][575]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:121][576]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:129][577]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:238][590]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:247][591]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:255][592]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:263][593]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:271][594]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:280][595]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:288][596]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:296][597]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:305][598]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:313][599]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:413][611]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:421][612]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:430][613]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:438][614]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:446][615]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:455][616]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:463][617]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:471][618]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:480][619]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:488][620]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:496][621]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:597][633]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:605][634]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:613][635]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:621][636]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:630][637]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:638][638]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:647][639]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:655][640]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:663][641]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:763][653]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:771][654]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:780][655]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:788][656]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:797][657]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:805][658]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:813][659]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:821][660]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:830][661]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.30:838][662]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.24.44:462][246]BlueprintLog: New page: Compile ball
+[2017.08.14-16.24.44:477][246]LogBlueprint:Error: [Compiler ball] Error The type of  Object  is undetermined.  Connect something to  Cast To LevelLogic  to imply a specific type.
+[2017.08.14-16.24.44:477][246]LogBlueprint:Error: [Compiler ball] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.08.14-16.24.44:692][246]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To LevelLogic  to imply a specific type.
+[2017.08.14-16.24.44:692][246]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.08.14-16.24.44:692][246]LogBlueprint:Warning: [Compiler ball] Warning [4474.63] Compile of ball failed. 2 Fatal Issue(s) 0 Warning(s) [in 229 ms] (/Game/Models/ball.ball)
+[2017.08.14-16.24.59:821][ 27]BlueprintLog: New page: Compile ball
+[2017.08.14-16.24.59:836][ 27]LogBlueprint:Error: [Compiler ball] Error This blueprint (self) is not a LevelLogic_C, therefore ' Target ' must have a connection.
+[2017.08.14-16.25.00:008][ 27]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LevelLogic_C, therefore ' Target ' must have a connection.
+[2017.08.14-16.25.00:008][ 27]LogBlueprint:Warning: [Compiler ball] Warning [4489.95] Compile of ball failed. 1 Fatal Issue(s) 0 Warning(s) [in 187 ms] (/Game/Models/ball.ball)
+[2017.08.14-16.25.36:365][355]BlueprintLog: New page: Compile ball
+[2017.08.14-16.25.37:895][466]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.25.37:904][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.25.37:904][466]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:25:37 PM)
+[2017.08.14-16.25.37:904][466]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.25.37:909][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004742s)
+[2017.08.14-16.25.37:910][466]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.25.37:910][466]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.08.14-16.25.37:910][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005502s)
+[2017.08.14-16.25.37:940][466]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.25.37:949][466]LogInit: FAudioDevice initialized.
+[2017.08.14-16.25.37:993][466]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.25.37:994][466]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.25.37
+[2017.08.14-16.25.37:995][466]LogWorld: Bringing up level for play took: 0.001234
+[2017.08.14-16.25.37:995][466]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.25.37:995][466]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.25.37:995][466]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.25.37:995][466]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.25.37:996][466]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.25.37:998][466]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.25.38:000][466]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test -0.068
+[2017.08.14-16.25.39:657][661]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:657][661]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:657][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:666][662]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:666][662]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:666][662]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:674][663]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:674][663]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:674][663]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:682][664]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:682][664]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:682][664]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:690][665]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:691][665]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:691][665]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:699][666]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:699][666]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:699][666]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:707][667]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:707][667]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:707][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:715][668]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:715][668]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:716][668]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:724][669]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:724][669]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:724][669]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:732][670]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:732][670]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:732][670]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:740][671]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:740][671]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:740][671]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:749][672]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:749][672]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:749][672]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.39:757][673]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.39:757][673]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.39:757][673]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:157][721]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:157][721]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.40:158][721]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:166][722]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:166][722]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.40:166][722]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:174][723]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:174][723]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.40:174][723]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:182][724]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:182][724]LogScript:Warning: Accessed None trying to read property NewVar_1
+	ball_C /Game/Levels/UEDPIE_0_Level_test.Level_test:PersistentLevel.ball_242
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball:009E
+[2017.08.14-16.25.40:182][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:190][725]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:191][725]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:199][726]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:199][726]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:207][727]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:207][727]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:215][728]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:216][728]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:224][729]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:224][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:232][730]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:232][730]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:332][742]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:332][742]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:341][743]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:341][743]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:349][744]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:349][744]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:357][745]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:357][745]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:366][746]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:366][746]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:374][747]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:374][747]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:382][748]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:382][748]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:390][749]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:391][749]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:399][750]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:399][750]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:407][751]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:407][751]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.40:415][752]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.25.40:415][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.25.46:646][484]BlueprintLog: New page: Compile ball
+[2017.08.14-16.26.33:420][387]BlueprintLog: New page: Compile ball
+[2017.08.14-16.26.34:557][505]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.26.34:567][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.26.34:567][505]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:26:34 PM)
+[2017.08.14-16.26.34:568][505]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.26.34:573][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004693s)
+[2017.08.14-16.26.34:573][505]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.26.34:573][505]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.08.14-16.26.34:574][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005524s)
+[2017.08.14-16.26.34:605][505]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.26.34:614][505]LogInit: FAudioDevice initialized.
+[2017.08.14-16.26.34:659][505]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.26.34:661][505]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.26.34
+[2017.08.14-16.26.34:661][505]LogWorld: Bringing up level for play took: 0.002116
+[2017.08.14-16.26.34:662][505]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.26.34:662][505]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.26.34:662][505]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.26.34:662][505]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.26.34:663][505]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.26.34:665][505]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.26.34:667][505]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test 0.599
+[2017.08.14-16.26.35:782][635]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.26.35:782][635]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_Restart', from offset 147
+[2017.08.14-16.26.35:782][635]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Models/ball.ball_C:InpAxisEvt_DelSaveZ_K2Node_InputAxisEvent_0
+	Function /Game/Models/ball.ball_C:ExecuteUbergraph_ball
+
+[2017.08.14-16.26.43:700][635]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_1 from function: 'ExecuteUbergraph_ball' from node: Restart in graph: EventGraph in object: ball with description: Accessed None trying to read property NewVar_1
+[2017.08.14-16.27.14:908][254]BlueprintLog: New page: Compile ball
+[2017.08.14-16.27.15:033][254]BlueprintEditorCompileResults: Info 'NewVar_1' is already a 'Level Logic', you don't need  Cast To LevelLogic .
+[2017.08.14-16.27.16:629][442]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.27.16:638][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.27.16:638][442]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:27:16 PM)
+[2017.08.14-16.27.16:638][442]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.27.16:644][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005387s)
+[2017.08.14-16.27.16:644][442]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.27.16:645][442]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.08.14-16.27.16:645][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.006547s)
+[2017.08.14-16.27.16:678][442]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.27.16:688][442]LogInit: FAudioDevice initialized.
+[2017.08.14-16.27.16:733][442]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.27.16:734][442]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.27.16
+[2017.08.14-16.27.16:735][442]LogWorld: Bringing up level for play took: 0.001503
+[2017.08.14-16.27.16:735][442]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.27.16:735][442]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.27.16:735][442]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.27.16:735][442]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.27.16:736][442]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.27.16:738][442]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.27.16:740][442]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test 0.672
+[2017.08.14-16.27.18:421][640]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:429][641]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:438][642]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:446][643]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:455][644]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:463][645]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:471][646]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:480][647]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:488][648]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:496][649]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:505][650]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:513][651]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:921][700]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:929][701]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:938][702]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:946][703]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:954][704]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:963][705]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:971][706]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:979][707]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:988][708]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.18:996][709]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:005][710]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:013][711]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:021][712]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:138][726]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:146][727]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:154][728]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:163][729]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:171][730]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:179][731]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:188][732]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:196][733]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:205][734]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:213][735]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:221][736]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:230][737]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:238][738]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:246][739]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:380][755]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:388][756]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:397][757]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:405][758]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:413][759]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:421][760]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:430][761]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:438][762]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:446][763]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:455][764]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:463][765]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.27.19:471][766]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.28.27:203][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_test" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Levels/Level_test_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.14-16.28.27:303][193]LogSavePackage: Save=92.09ms
+[2017.08.14-16.28.27:303][193]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/Level_test_Auto32F6FC0FA464600F97B9DB0B594DEA9CA.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Levels/Level_test_Auto3.umap'
+[2017.08.14-16.28.27:304][193]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Levels/Level_test_Auto3.umap
+[2017.08.14-16.28.27:305][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_test' took 0.139
+[2017.08.14-16.28.27:305][193]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2017.08.14-16.28.27:308][193]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LevelLogic] ([1] browsable assets)...
+[2017.08.14-16.28.27:308][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LevelLogic]
+[2017.08.14-16.28.27:308][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/LevelLogic" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.14-16.28.27:569][193]LogSavePackage: Save=251.23ms
+[2017.08.14-16.28.27:569][193]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/LevelLogic_Auto3319E0DFF402FB97AADB8C48155C9BB8B.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto3.uasset'
+[2017.08.14-16.28.27:620][193]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Blueprints/LevelLogic_Auto3.uasset
+[2017.08.14-16.28.27:620][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ball] ([1] browsable assets)...
+[2017.08.14-16.28.27:673][193]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Models/ball.ball]
+[2017.08.14-16.28.27:673][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ball]
+[2017.08.14-16.28.27:673][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ball" FILE="F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.14-16.28.27:757][193]LogSavePackage: Save=74.73ms
+[2017.08.14-16.28.27:757][193]LogSavePackage: Moving 'F:/git/UE4_Ball/Saved/ball_Auto35255DE644480B9F9FA11ECBF7B042CDA.tmp' to 'F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto3.uasset'
+[2017.08.14-16.28.27:758][193]LogSavePackage:Display: Finished SavePackage F:/git/UE4_Ball/Saved/Autosaves/Game/Models/ball_Auto3.uasset
+[2017.08.14-16.28.27:758][193]LogFileHelpers: Auto-saving content packages took 0.451
+[2017.08.14-16.29.12:369][910]BlueprintLog: New page: Compile Gm_instanse
+[2017.08.14-16.29.12:567][910]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'B Save', you don't need  Cast To B_Save .
+[2017.08.14-16.30.51:917][677]BlueprintLog: New page: Compile ball
+[2017.08.14-16.30.51:932][677]LogBlueprint:Warning: [Compiler ball] Warning 'Gm Instanse' does not inherit from 'Level Logic' ( Cast To Gm_instanse  would always fail).
+[2017.08.14-16.30.52:044][677]BlueprintEditorCompileResults:Warning: Warning 'Gm Instanse' does not inherit from 'Level Logic' ( Cast To Gm_instanse  would always fail).
+[2017.08.14-16.30.52:044][677]LogBlueprint:Warning: [Compiler ball] Warning [4841.98] Compile of ball successful, but with 1 Warning(s) [in 127 ms] (/Game/Models/ball.ball)
+[2017.08.14-16.30.54:081][920]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.30.54:091][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.30.54:091][920]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:30:54 PM)
+[2017.08.14-16.30.54:091][920]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.30.54:096][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004780s)
+[2017.08.14-16.30.54:097][920]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.30.54:097][920]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2017.08.14-16.30.54:097][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005556s)
+[2017.08.14-16.30.54:129][920]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.30.54:139][920]LogInit: FAudioDevice initialized.
+[2017.08.14-16.30.54:187][920]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.30.54:189][920]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.30.54
+[2017.08.14-16.30.54:189][920]LogWorld: Bringing up level for play took: 0.001795
+[2017.08.14-16.30.54:189][920]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.30.54:189][920]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.30.54:189][920]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.30.54:189][920]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.30.54:190][920]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.30.54:192][920]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.30.54:194][920]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test 0.126
+[2017.08.14-16.30.55:168][ 33]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:176][ 34]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:184][ 35]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:192][ 36]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:201][ 37]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:209][ 38]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:217][ 39]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:226][ 40]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:234][ 41]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:242][ 42]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:251][ 43]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:259][ 44]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:267][ 45]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:275][ 46]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:284][ 47]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:676][ 94]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:684][ 95]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:693][ 96]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:701][ 97]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:709][ 98]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:717][ 99]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:726][100]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:734][101]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:742][102]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:851][115]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:859][116]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:868][117]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:876][118]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:884][119]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:892][120]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:901][121]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:909][122]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:917][123]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:926][124]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:934][125]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.30.55:942][126]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.22:139][508]BlueprintLog: New page: Compile ball
+[2017.08.14-16.33.22:269][508]BlueprintEditorCompileResults: Info 'NewVar_1' is already a 'Level Logic', you don't need  Cast To LevelLogic .
+[2017.08.14-16.33.23:311][630]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.33.23:320][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.33.23:320][630]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:33:23 PM)
+[2017.08.14-16.33.23:321][630]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.33.23:325][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004667s)
+[2017.08.14-16.33.23:326][630]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.33.23:326][630]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.08.14-16.33.23:326][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005494s)
+[2017.08.14-16.33.23:357][630]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.33.23:367][630]LogInit: FAudioDevice initialized.
+[2017.08.14-16.33.23:413][630]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.33.23:415][630]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.33.23
+[2017.08.14-16.33.23:415][630]LogWorld: Bringing up level for play took: 0.001397
+[2017.08.14-16.33.23:415][630]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.33.23:416][630]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.33.23:416][630]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.33.23:416][630]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.33.23:416][630]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.33.23:419][630]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.33.23:420][630]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test -0.648
+[2017.08.14-16.33.24:536][760]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:544][761]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:553][762]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:561][763]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:569][764]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:578][765]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:586][766]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:594][767]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:603][768]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:611][769]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:619][770]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:628][771]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:636][772]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:644][773]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:652][774]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:986][814]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.24:994][815]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:003][816]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:011][817]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:019][818]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:027][819]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:036][820]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:044][821]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:052][822]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:061][823]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:069][824]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:078][825]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:186][838]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:194][839]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:203][840]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:211][841]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:219][842]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:227][843]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:236][844]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:244][845]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:353][858]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:361][859]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:369][860]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:378][861]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:386][862]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:394][863]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:403][864]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:411][865]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:419][866]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:427][867]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:436][868]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:444][869]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:453][870]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.25:461][871]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.41:126][734]BlueprintLog: New page: Compile ball
+[2017.08.14-16.33.42:222][844]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-16.33.42:231][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-16.33.42:231][844]PIE: New page: PIE session: Level_test (Aug 14, 2017, 10:33:42 PM)
+[2017.08.14-16.33.42:231][844]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_test
+[2017.08.14-16.33.42:236][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004846s)
+[2017.08.14-16.33.42:237][844]LogAIModule: Creating AISystem for world Level_test
+[2017.08.14-16.33.42:237][844]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.08.14-16.33.42:237][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_test.Level_test to /Game/Levels/UEDPIE_0_Level_test.Level_test (0.005633s)
+[2017.08.14-16.33.42:268][844]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-16.33.42:277][844]LogInit: FAudioDevice initialized.
+[2017.08.14-16.33.42:317][844]LogLoad: Game class is 'GM_Bounce_C'
+[2017.08.14-16.33.42:318][844]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_test.Level_test up for play (max tick rate 0) at 2017.08.14-19.33.42
+[2017.08.14-16.33.42:318][844]LogWorld: Bringing up level for play took: 0.001183
+[2017.08.14-16.33.42:318][844]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-16.33.42:319][844]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.33.42:319][844]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.14-16.33.42:319][844]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.33.42:319][844]LogStreaming:Warning: Failed to read file 'F:/git/UE4_Ball/Saved/SaveGames/SaveGame.sav' error.
+[2017.08.14-16.33.42:322][844]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.14-16.33.42:323][844]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_test 0.255
+[2017.08.14-16.33.44:333][ 81]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:341][ 82]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:349][ 83]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:358][ 84]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:366][ 85]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:374][ 86]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:383][ 87]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:391][ 88]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:399][ 89]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:408][ 90]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:416][ 91]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:424][ 92]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:432][ 93]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:441][ 94]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:449][ 95]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:457][ 96]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:583][111]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:591][112]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:599][113]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:607][114]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:616][115]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:624][116]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:632][117]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:641][118]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:649][119]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:658][120]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:666][121]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:774][134]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:782][135]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:791][136]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:799][137]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:807][138]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:816][139]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:824][140]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:832][141]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:841][142]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:849][143]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:966][157]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:974][158]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:982][159]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:991][160]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.44:999][161]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:007][162]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:016][163]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:024][164]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:116][175]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:124][176]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:133][177]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:141][178]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:149][179]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:158][180]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:166][181]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:174][182]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:182][183]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:191][184]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:199][185]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:233][189]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:241][190]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:249][191]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:258][192]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:266][193]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:274][194]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:283][195]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:291][196]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:299][197]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:308][198]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:316][199]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:324][200]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:332][201]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:341][202]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:349][203]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:357][204]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:391][208]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:399][209]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:408][210]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:416][211]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:424][212]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:433][213]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:441][214]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:449][215]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:458][216]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:466][217]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:474][218]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:483][219]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:491][220]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:499][221]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:508][222]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:516][223]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:524][224]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:532][225]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:541][226]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:549][227]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.33.45:557][228]LogBlueprintUserMessages: [ball_242] Delete save slot
+[2017.08.14-16.34.10:041][860]BlueprintLog: New page: Compile ball
+[2017.08.14-16.34.19:050][914]BlueprintLog: New page: Compile Gm_instanse
+[2017.08.14-16.34.19:226][914]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'B Save', you don't need  Cast To B_Save .
+[2017.08.14-16.35.30:657][365]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.824 s
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: 
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: Ensure condition failed: ClassOwner [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\EdGraphSchema_K2.cpp] [Line: 5882]
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: Wrong class owner of signature /Script/Engine.InputAxisHandlerDynamicSignature__DelegateSignature in node /Game/Blueprints/Gm_instanse.Gm_instanse:EventGraph.K2Node_InputAxisEvent_1
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: Stack: 
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D11FE256
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D0FAB862
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D0FC1E26
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000C8926626
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CAED4CEF
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CB0AD00A
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CAEBA603
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000C98845FD
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000C98843DF
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000C9810991
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000C98155D6
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D032EB50
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0373D60
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000C6CAFD7D
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0319021
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D02E840E
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D02EA006
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D03755AD
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0366518
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D11F143C
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D11DB771
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D11F337B
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D11D7AC2
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: USER32.dll!0x00000000F492BC50
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: USER32.dll!0x00000000F492B5CF
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D11F3C86
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor.exe!0x00000000F5D7DB44
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor.exe!0x00000000F5D6F0B0
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor.exe!0x00000000F5D6F12A
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor.exe!0x00000000F5D80CF9
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: UE4Editor.exe!0x00000000F5D825F7
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F5602774
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: ntdll.dll!0x00000000F5790D61
+[2017.08.14-16.35.30:657][365]LogOutputDevice:Error: 
+[2017.08.14-16.35.30:666][365]LogStats:                SubmitErrorReport -  0.000 s
